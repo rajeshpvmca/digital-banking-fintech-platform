@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,12 +19,20 @@
     <link rel="stylesheet" href="css/style.css">
     
     <style>
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
         body {
             background-color: var(--background);
-            overflow: hidden;
-            height: 100vh;
+            overflow-y: auto;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
+            position: relative;
         }
 
         /* Abstract Background Elements */
@@ -54,6 +62,7 @@
             justify-content: center;
             position: relative;
             z-index: 1;
+            padding: 2rem 1rem;
         }
 
         .error-glass-card {
@@ -120,7 +129,7 @@
         }
     </style>
 </head>
-<body>
+<body class="overflow-hidden">
 
    
 
@@ -134,7 +143,7 @@
     <span class="material-symbols-outlined floating-icon icon-2">credit_card</span>
     <span class="material-symbols-outlined floating-icon icon-3">currency_exchange</span>
 
-    <main class="error-container">
+    <main class="error-container overflow-hidden">
         <div class="error-glass-card">
             <div class="p-3 bg-danger bg-opacity-10 text-danger rounded-circle d-inline-flex mb-4">
                 <span class="material-symbols-outlined fs-2">explore_off</span>
@@ -146,11 +155,11 @@
                 The page you're looking for might have been removed, had its name changed, or is temporarily unavailable. Don't worry, your finances are perfectly safe!
             </p>
             
-            <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mt-4">
-                <a href="index.html" class="btn btn-primary-modern rounded-pill px-5 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 shadow-sm transition-transform hover-scale-105">
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mt-4">
+                <a href="index.html" class="btn btn-primary-modern rounded-pill px-4 px-sm-5 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 shadow-sm transition-transform hover-scale-105">
                     <span class="material-symbols-outlined">home</span> Back to Home
                 </a>
-                <button onclick="history.back()" class="btn btn-secondary-modern rounded-pill px-5 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 transition-transform hover-scale-105">
+                <button onclick="history.back()" class="btn btn-secondary-modern rounded-pill px-4 px-sm-5 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 transition-transform hover-scale-105">
                     <span class="material-symbols-outlined">arrow_back</span> Go Back
                 </button>
             </div>
