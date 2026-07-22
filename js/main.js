@@ -26,13 +26,33 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 1. Initialize AOS (Animate On Scroll)
-    if (typeof AOS !== 'undefined') {
-        AOS.init({
-            duration: 800,
-            once: true,
-            offset: 100
+    // 1. Preloader & Animation Sync
+    const preloader = document.getElementById('global-preloader');
+    
+    const initAOS = () => {
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+            setTimeout(() => AOS.refresh(), 100);
+        }
+    };
+
+    if (preloader) {
+        window.addEventListener('load', () => {
+            // Force the preloader to show for at least 2 seconds
+            setTimeout(() => {
+                preloader.classList.add('fade-out');
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                    initAOS();
+                }, 600);
+            }, 2000);
         });
+    } else {
+        initAOS();
     }
 
     // 2. Load Header and Footer dynamically

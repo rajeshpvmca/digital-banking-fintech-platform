@@ -627,3 +627,60 @@ h1, h2, h3, .font-headline-xl, .font-headline-lg, .font-headline-md {
     transform: rotate(360deg) scale(1.2);
 }
 
+/* --- Global Preloader --- */
+.preloader-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #030712;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.6s cubic-bezier(0.8, 0, 0.2, 1), visibility 0.6s;
+}
+
+.preloader-overlay.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.preloader-content {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader-logo {
+    width: 80px;
+    height: 30px;
+    background-color: var(--primary);
+    -webkit-mask: url('../assets/images/logoStackly.webp') no-repeat center;
+    mask: url('../assets/images/logoStackly.webp') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    animation: pulseLogo 2s ease-in-out infinite;
+    z-index: 2;
+}
+
+.preloader-spinner {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 3px solid rgba(79, 70, 229, 0.1);
+    border-top-color: var(--primary);
+    border-right-color: var(--tertiary);
+    animation: spinRing 1.2s linear infinite;
+    z-index: 1;
+}
+
+@keyframes spinRing {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes pulseLogo {
+    0%, 100% { opacity: 0.7; transform: scale(0.95); }
+    50% { opacity: 1; transform: scale(1.05); }
+}
