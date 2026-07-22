@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -48,8 +48,8 @@
                     Stay ahead of the curve with the latest digital banking news, expert analysis, and futuristic financial trends curated by our industry leaders.
                 </p>
                 <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                    <button onclick="window.location.href='404.html'" class="btn btn-primary-modern px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Latest Articles</button>
-                    <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2" style="backdrop-filter: blur(8px);">
+                    <button onclick="window.location.href='404.html'"404.html'" class="btn btn-primary-modern px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Latest Articles</button>
+                    <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2" style="backdrop-filter: blur(8px);" onclick="window.location.href='404.html'">
                         Subscribe
                     </button>
                 </div>
@@ -84,11 +84,11 @@
             <!-- Section 2: Category Filter -->
             <section class="mb-5 d-flex flex-wrap align-items-center justify-content-between gap-4 position-relative" style="z-index: 10;" data-aos="fade-up">
                 <div class="d-flex align-items-center gap-2 overflow-x-auto pb-2 no-scrollbar w-100 w-md-auto">
-                    <button class="filter-btn btn bg-primary text-white rounded-pill px-4 py-2 font-label-md text-nowrap border-0" data-filter="all">All Topics</button>
-                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="fintech">Fintech</button>
-                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="security">Security</button>
-                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="crypto">Crypto</button>
-                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="lifestyle">Lifestyle</button>
+                    <button class="filter-btn btn bg-primary text-white rounded-pill px-4 py-2 font-label-md text-nowrap border-0" data-filter="all" onclick="window.location.href='404.html'">All Topics</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="fintech" onclick="window.location.href='404.html'">Fintech</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="security" onclick="window.location.href='404.html'">Security</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="crypto" onclick="window.location.href='404.html'">Crypto</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="lifestyle" onclick="window.location.href='404.html'">Lifestyle</button>
                 </div>
 
             </section>
@@ -192,10 +192,10 @@
                             <h2 class="font-headline-lg fw-bold mb-3 lh-sm" style="background: linear-gradient(to right, #ffffff, #a5b4fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">The Fintech Pulse</h2>
                             <p class="font-body-md text-white text-opacity-75 mb-5" style="max-width: 480px; font-size: 15px;">Get exclusive weekly insights on market trends, security alerts, and financial innovation delivered directly to your inbox.</p>
                             
-                            <form class="w-100" style="max-width: 500px;">
+                            <form action="404.html" method="GET" class="w-100" style="max-width: 500px;" onsubmit="if(!this.querySelector('input').value) { this.querySelector('input').focus(); return false; }">
                                 <div class="bg-white bg-opacity-10 p-1 rounded-pill d-flex align-items-center border border-white border-opacity-25 focus-ring-wrapper transition-all shadow-lg" style="backdrop-filter: blur(12px);">
                                     <span class="material-symbols-outlined text-white text-opacity-50 ms-3 fs-5">mail</span>
-                                    <input class="form-control bg-transparent border-0 text-white shadow-none px-3 font-body-sm" placeholder="Enter your email address..." type="email" style="color: white !important;" aria-label="Email address"/>
+                                    <input class="form-control bg-transparent border-0 text-white shadow-none px-3 font-body-sm" placeholder="Enter your email address..." type="email" name="email" required style="color: white !important;" aria-label="Email address"/>
                                     <button class="btn rounded-pill fw-bold text-white transition-transform hover-scale-105 border-0 px-4 py-2 d-flex align-items-center gap-2" style="background: linear-gradient(135deg, #38bdf8, #4f46e5); height: 44px;" type="submit">
                                         Subscribe <span class="material-symbols-outlined fs-6">send</span>
                                     </button>

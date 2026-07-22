@@ -1,4 +1,4 @@
-﻿<footer class="w-100 position-relative text-white overflow-hidden mt-auto py-5" style="background: linear-gradient(180deg, #111827 0%, #030712 100%); border-top: 1px solid rgba(255,255,255,0.1);">
+<footer class="w-100 position-relative text-white overflow-hidden mt-auto py-5" style="background: linear-gradient(180deg, #111827 0%, #030712 100%); border-top: 1px solid rgba(255,255,255,0.1);">
     <!-- Ambient glow -->
     <div class="position-absolute top-0 start-50 translate-middle-x rounded-circle" style="width: 800px; height: 400px; background: radial-gradient(circle, rgba(79, 70, 229, 0.15) 0%, transparent 70%); pointer-events: none;"></div>
 
@@ -61,12 +61,12 @@
                 </h5>
                 <p class="text-white text-opacity-75 mb-4" style="font-size: 14px;">Subscribe to our newsletter for exclusive fintech insights, market trends, and product updates.</p>
                 
-                <div class="bg-white bg-opacity-10 p-1 rounded-3 d-flex align-items-center border border-white border-opacity-10 focus-ring-wrapper transition-all">
-                    <input type="email" class="form-control bg-transparent border-0 text-white shadow-none px-3 font-body-sm" placeholder="Email address..." aria-label="Email Address">
-                    <button class="btn fw-bold text-white transition-transform hover-scale-105 border-0 px-3 py-2 rounded-2" style="background: #38bdf8;" aria-label="Subscribe">
+                <form action="404.html" method="GET" class="bg-white bg-opacity-10 p-1 rounded-3 d-flex align-items-center border border-white border-opacity-10 focus-ring-wrapper transition-all" onsubmit="if(!this.querySelector('input').value) { this.querySelector('input').focus(); return false; }">
+                    <input type="email" name="email" class="form-control bg-transparent border-0 text-white shadow-none px-3 font-body-sm" placeholder="Email address..." aria-label="Email Address" required>
+                    <button type="submit" class="btn fw-bold text-white transition-transform hover-scale-105 border-0 px-3 py-2 rounded-2" style="background: #38bdf8;" aria-label="Subscribe">
                         Subscribe
                     </button>
-                </div>
+                </form>
                 <p class="text-white text-opacity-50 mt-3 mb-0" style="font-size: 12px;">We never share your email with third parties.</p>
             </div>
         </div>

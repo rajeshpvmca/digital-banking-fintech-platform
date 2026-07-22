@@ -619,3 +619,11 @@ h1, h2, h3, .font-headline-xl, .font-headline-lg, .font-headline-md {
     100% { background-position: 0% 50%; }
 }
 
+/* Header Login Button Icon Animation */
+.login-btn-animated .login-icon {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.login-btn-animated:hover .login-icon {
+    transform: rotate(360deg) scale(1.2);
+}
+
