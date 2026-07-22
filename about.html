@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>About Us | Stackly Banking</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main class="pt-20">
+        <!-- New About Us Hero Section -->
+        <section class="position-relative d-flex align-items-center justify-content-center overflow-hidden" style="min-height: 80vh;">
+            <!-- Background Image with Overlay -->
+            <div class="position-absolute inset-0 w-100 h-100 z-0">
+                <div class="position-absolute inset-0 w-100 h-100 bg-dark bg-opacity-75" style="z-index: 1;"></div>
+                <div class="w-100 h-100 transition-transform" style="background-image: url('assets/images/about_hero_bg_1784691657049.png'); background-size: cover; background-position: center; animation: pulse 15s infinite alternate;"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="container position-relative text-center z-1 px-3" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-white bg-opacity-10 text-white rounded-pill font-label-sm text-label-sm mb-4 border border-white border-opacity-25" style="backdrop-filter: blur(8px);">
+                    <span class="material-symbols-outlined fs-6">corporate_fare</span>
+                    Pioneering Digital Banking
+                </div>
+                <h1 class="font-headline-xl text-headline-xl text-white mb-4 fw-bold lh-sm" style="text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                    Architects of the <br>
+                    <span class="text-primary">Financial Future</span>
+                </h1>
+                <p class="text-white text-opacity-75 text-body-lg mx-auto mb-5" style="max-width: 750px; font-size: 1.125rem; line-height: 1.7;">
+                    Since our inception, Stackly has been dedicated to breaking down barriers in global finance. Discover the people, the technology, and the vision driving the next generation of wealth creation.
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <button class="btn indigo-gradient text-white px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Meet the Team</button>
+                    <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2" style="backdrop-filter: blur(8px);">
+                        Our History
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1. Improved Mission Section -->
+        <section class="position-relative py-5 bg-surface overflow-hidden">
+            <div class="container max-w-container-max position-relative z-1 ">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-primary bg-opacity-10 text-white rounded-pill font-label-sm text-label-sm mb-4">
+                            <span class="material-symbols-outlined fs-6" style="font-variation-settings: 'FILL' 1;">insights</span>
+                            Our Core Mission
+                        </div>
+                        <h1 class="font-headline-xl text-headline-xl text-on-surface mb-4 lh-sm">
+                            Reimagining Finance <br>
+                            <span class="text-primary">For Everyone</span>
+                        </h1>
+                        <p class="font-body-lg text-body-lg text-on-surface-variant mb-5 pe-lg-4" style="line-height: 1.8;">
+                            We believe banking should be as intuitive as a heartbeat and as transparent as glass. Our mission is to bridge the gap between traditional security and digital-first innovation, empowering global teams.
+                        </p>
+                        <div class="d-flex flex-column flex-sm-row gap-3">
+                            <button class="btn indigo-gradient text-white px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Explore Our Vision</button>
+                            <button class="btn glass-card text-on-surface border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2">
+                                <span class="material-symbols-outlined">play_circle</span> Watch Story
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative" data-aos="fade-left" data-aos-delay="200">
+                        <!-- Decorative background elements -->
+                        <div class="position-absolute top-50 start-50 translate-middle bg-primary rounded-circle" style="width: 120%; padding-bottom: 120%; filter: blur(100px); opacity: 0.1; z-index: -1;"></div>
+                        <div class="position-absolute bottom-0 end-0 bg-tertiary rounded-circle" style="width: 80%; padding-bottom: 80%; filter: blur(80px); opacity: 0.15; z-index: -1;"></div>
+                        
+                        <!-- Floating Image -->
+                        <div class="position-relative float-animation" style="z-index: 1;">
+                            <img src="assets/images/about_hero_1784647359247.png" class="img-fluid rounded-4 shadow-lg border border-outline-variant border-opacity-50" alt="Stackly Team Collaboration" style="object-fit: cover; aspect-ratio: 4/3;">
+                            
+                            <!-- Floating Card Overlay -->
+                            <div class="position-absolute bottom-0 start-0 translate-middle-x mb-4 ms-4 d-none d-md-block float-animation-delayed" style="z-index: 2;">
+                                <div class="glass-card-border p-4 rounded-4 shadow-lg text-center" style="backdrop-filter: blur(16px); background: rgba(255, 255, 255, 0.8);">
+                                    <div class="text-primary font-headline-lg fw-bold mb-1">5M+</div>
+                                    <div class="text-on-surface-variant font-label-sm text-uppercase tracking-wider">Global Users</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Our Story (Vertical Timeline) -->
+        <section class="py-5 position-relative overflow-hidden" data-aos="fade-up" style="background-color: #0d091e;">
+            <!-- Ambient Background Glow -->
+            <div class="position-absolute top-0 start-50 translate-middle-x bg-primary bg-opacity-25" style="width: 600px; height: 100%; filter: blur(100px); z-index: 0;"></div>
+
+            <div class="container max-w-container-max position-relative z-1">
+                <div class="text-center mb-5 pb-4">
+                    <span class="d-inline-block px-4 py-2 rounded-pill font-label-sm fw-bold mb-3" style="background-color: rgba(223, 183, 140, 0.15); color: var(--tertiary); letter-spacing: 2px; text-transform: uppercase;">Our Journey</span>
+                    <h2 class="font-headline-lg text-headline-lg mt-2 text-white fw-bold">Growth Built on <span class="text-gradient-premium">Trust</span></h2>
+                </div>
+                
+                <div class="position-relative mx-auto py-4" style="max-width: 900px;">
+                    <!-- Glowing Central Line -->
+                    <div class="position-absolute start-50 translate-middle-x d-none d-md-block" style="width: 4px; height: 100%; background: linear-gradient(to bottom, transparent, var(--primary), var(--tertiary), transparent); box-shadow: 0 0 15px var(--primary);"></div>
+                    
+                    <!-- 2018 -->
+                    <div class="position-relative d-flex align-items-center justify-content-between mb-5 mb-md-5 pb-md-5 group">
+                        <div class="d-none d-md-block w-50 text-end pe-5">
+                            <span class="font-headline-lg fw-bold transition-transform group-hover-scale d-inline-block" style="color: rgba(255,255,255,0.1); font-size: 80px; line-height: 1; text-shadow: 0 0 20px rgba(76,29,149,0.5);">2018</span>
+                        </div>
+
+                        <div class="w-100 w-md-50 ps-md-5">
+                            <div class="p-4 p-md-5 rounded-4 shadow-lg transition-transform hover-scale-105" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                                <div class="d-md-none mb-3"><span class="text-tertiary fw-bold display-4">2018</span></div>
+                                <h3 class="font-headline-md text-white mb-3 fw-bold">The Seed of Change</h3>
+                                <p class="text-body-md text-white text-opacity-75 mb-0 lh-lg">Stackly was founded in a small London studio with a simple goal: make complex banking universally accessible and fundamentally transparent.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2020 -->
+                    <div class="position-relative d-flex flex-row-reverse align-items-center justify-content-between mb-5 mb-md-5 pb-md-5 group">
+                        <div class="d-none d-md-block w-50 text-start ps-5">
+                            <span class="font-headline-lg fw-bold transition-transform group-hover-scale d-inline-block" style="color: rgba(255,255,255,0.1); font-size: 80px; line-height: 1; text-shadow: 0 0 20px rgba(76,29,149,0.5);">2020</span>
+                        </div>
+
+                        <div class="w-100 w-md-50 pe-md-5">
+                            <div class="p-4 p-md-5 rounded-4 shadow-lg transition-transform hover-scale-105 text-md-end" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                                <div class="d-md-none mb-3"><span class="text-tertiary fw-bold display-4">2020</span></div>
+                                <h3 class="font-headline-md text-white mb-3 fw-bold">Series A Success</h3>
+                                <p class="text-body-md text-white text-opacity-75 mb-0 lh-lg">Raised $45M to expand our core infrastructure, successfully launching our first automated wealth management platform to the public.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2022 -->
+                    <div class="position-relative d-flex align-items-center justify-content-between mb-5 mb-md-5 pb-md-5 group">
+                        <div class="d-none d-md-block w-50 text-end pe-5">
+                            <span class="font-headline-lg fw-bold transition-transform group-hover-scale d-inline-block" style="color: rgba(255,255,255,0.1); font-size: 80px; line-height: 1; text-shadow: 0 0 20px rgba(76,29,149,0.5);">2022</span>
+                        </div>
+
+                        <div class="w-100 w-md-50 ps-md-5">
+                            <div class="p-4 p-md-5 rounded-4 shadow-lg transition-transform hover-scale-105" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                                <div class="d-md-none mb-3"><span class="text-tertiary fw-bold display-4">2022</span></div>
+                                <h3 class="font-headline-md text-white mb-3 fw-bold">Global Expansion</h3>
+                                <p class="text-body-md text-white text-opacity-75 mb-0 lh-lg">Reached 1 million active users and proudly opened new operational offices in New York and Singapore to serve an international clientele.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Today -->
+                    <div class="position-relative d-flex flex-row-reverse align-items-center justify-content-between group">
+                        <div class="d-none d-md-block w-50 text-start ps-5">
+                            <span class="font-headline-lg fw-bold transition-transform group-hover-scale d-inline-block" style="color: rgba(255,255,255,0.1); font-size: 80px; line-height: 1; text-shadow: 0 0 20px rgba(223,183,140,0.5);">Today</span>
+                        </div>
+
+                        <div class="w-100 w-md-50 pe-md-5">
+                            <div class="p-4 p-md-5 rounded-4 shadow-lg transition-transform hover-scale-105 text-md-end" style="background: linear-gradient(135deg, rgba(76,29,149,0.8) 0%, rgba(30,10,60,0.9) 100%); border: 1px solid rgba(223,183,140,0.3); backdrop-filter: blur(10px);">
+                                <div class="d-md-none mb-3"><span class="text-tertiary fw-bold display-4">Today</span></div>
+                                <h3 class="font-headline-md text-white mb-3 fw-bold">Redefining Tomorrow</h3>
+                                <p class="text-body-md text-white text-opacity-75 mb-0 lh-lg">Now a global market leader in ESG banking, managing over $12B in assets with a dedicated team of 400 innovators pushing the boundaries worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Leadership Section -->
+        <section class="py-5 bg-surface" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="text-center mb-5">
+                    <h2 class="font-headline-lg text-headline-lg">Meet the Visionaries</h2>
+                    <p class="text-on-surface-variant mt-2">Leading the future of digital finance with experience and integrity.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Leader 1 -->
+                    <div class="col-sm-6 col-lg-3 text-center leader-card cursor-pointer">
+                        <div class="position-relative overflow-hidden rounded-4 mb-3 shadow-sm" style="aspect-ratio: 4/5;">
+                            <img class="w-100 h-100 object-fit-cover leader-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAq5cikzlTbnlRpa1CJgPplKS0UVj093wB4q9w5sa9RizH-oxPmGNqfK2foAOgOVqxyjxO7g-_VbgXUAgjwGgqV51fYztwBhZ8JhH2oA-oPh_-p-h5TO1u0vSVI-XC-y8oNcw-5FN8pBoToqKsK-XhtwHdklKE6lTOTlACavp-ltOo5tG4SF5wRw4AKDEIhhZ7VUjtPz3nxDZmO5dZGrIrVNbZ15aoSqg1uUuVTgtkcCaH1Q1WrmMpEq6I1YTgze67255rvT8qv610"/>
+                            
+                            <!-- Ultra Modern Glassmorphic Pill -->
+                            <div class="position-absolute rounded-pill p-2 d-flex gap-1 social-pill shadow-lg">
+                                <a href="#" class="text-decoration-none social-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-decoration-none social-icon x"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" class="text-decoration-none social-icon ig"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none social-icon in"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="font-headline-md text-on-surface fs-5 mb-1 transition-colors hover-text-primary">Elena Vostra</h4>
+                        <p class="text-primary font-label-md text-uppercase mb-0">Chief Executive Officer</p>
+                    </div>
+                    <!-- Leader 2 -->
+                    <div class="col-sm-6 col-lg-3 text-center leader-card cursor-pointer">
+                        <div class="position-relative overflow-hidden rounded-4 mb-3 shadow-sm" style="aspect-ratio: 4/5;">
+                            <img class="w-100 h-100 object-fit-cover leader-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC22l6E80eHpH9KEv-PD6j1Vh6SGHZivFQDXtwhcXW9unlQSRWdZ7CH2RV8FoLzkytkxakhJPtI7aNDdMuANQ_L-vcDhsKq_Am-sgX9a71mPTBAA8onJJRR7FBtRHZCba1nMptqH31BUn71-inaQs7xkDFOBL_L-Yi8RpTBBGOHNeQOXrAs3rqqftIfcs16z59cXsnIjCyBUgNPgrdDwkQfP-AJ6tmkBeZbZTXXVJ1gCK4nP8-A8X3-4b44BOMpMxM3cv9Mu-cZ_oM"/>
+                            
+                            <div class="position-absolute rounded-pill p-2 d-flex gap-1 social-pill shadow-lg">
+                                <a href="#" class="text-decoration-none social-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-decoration-none social-icon x"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" class="text-decoration-none social-icon ig"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none social-icon in"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="font-headline-md text-on-surface fs-5 mb-1 transition-colors hover-text-primary">Marcus Chen</h4>
+                        <p class="text-primary font-label-md text-uppercase mb-0">Chief Technology Officer</p>
+                    </div>
+                    <!-- Leader 3 -->
+                    <div class="col-sm-6 col-lg-3 text-center leader-card cursor-pointer">
+                        <div class="position-relative overflow-hidden rounded-4 mb-3 shadow-sm" style="aspect-ratio: 4/5;">
+                            <img class="w-100 h-100 object-fit-cover leader-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEOe8v4xGNAKX0vstkxAI87qVjVUa1NbghPN_vu6Hi9YA3NWoCAcB6-uVONYLgl56hJCkJkX0HXeESMD6W9s46RGu-exLjjFKmhN4IKk3MDvPZGpjeM1sPsDQKHKmqXBjyiMxUpQTGGJeptTTNjXfu8a7AosUE2FT5A4qqQlQkawVSegCn0GaV_0JculmXgVajRvM5qdm1ueKgAT-FuEsJ95itnd7pR_p-bZNqHLFPFcNx94OJYfGvbk_ZD0HuCOuK0xAkJ4LOA2U"/>
+                            
+                            <div class="position-absolute rounded-pill p-2 d-flex gap-1 social-pill shadow-lg">
+                                <a href="#" class="text-decoration-none social-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-decoration-none social-icon x"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" class="text-decoration-none social-icon ig"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none social-icon in"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="font-headline-md text-on-surface fs-5 mb-1 transition-colors hover-text-primary">Sarah Jenkins</h4>
+                        <p class="text-primary font-label-md text-uppercase mb-0">Chief Operating Officer</p>
+                    </div>
+                    <!-- Leader 4 -->
+                    <div class="col-sm-6 col-lg-3 text-center leader-card cursor-pointer">
+                        <div class="position-relative overflow-hidden rounded-4 mb-3 shadow-sm" style="aspect-ratio: 4/5;">
+                            <img class="w-100 h-100 object-fit-cover leader-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfdoTT0sm-P6fdqM2Sz1KsQ2l6SBRStDiZY3kemIF8fMZxusVVCx1uY4z5LZ36W0X3g_-ueOCZsrkmpMvHXyD2KDOVQ0iNbimsDEPRKogCJ3mwnGBVd0KFApS8XIrL-Uq5np4jIq4PyB94HSbhmMvTIYzg7wECbSJPzqrd_S2atWharFWh9ht4W5b3zGF2xMlkR_bwWYz2Ql6uCHJ8_O1bSF3mTPe7Wq0KWQ0tFaoYkQBczeaf2fm9khB-xwMahz6SmOE7uOrx00I"/>
+                            
+                            <div class="position-absolute rounded-pill p-2 d-flex gap-1 social-pill shadow-lg">
+                                <a href="#" class="text-decoration-none social-icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="text-decoration-none social-icon x"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" class="text-decoration-none social-icon ig"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-decoration-none social-icon in"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="font-headline-md text-on-surface fs-5 mb-1 transition-colors hover-text-primary">David Miller</h4>
+                        <p class="text-primary font-label-md text-uppercase mb-0">Chief Financial Officer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Company Values -->
+        <section class="py-5 position-relative" data-aos="fade-up">
+            <!-- Background Ambient Glow -->
+            <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background: radial-gradient(circle at center, rgba(76,29,149,0.05) 0%, transparent 60%); z-index: -1; pointer-events: none;"></div>
+            
+            <div class="container max-w-container-max">
+                <div class="text-center mb-5 position-relative z-1">
+                    <span class="text-primary font-label-md text-uppercase letter-spacing-wider fw-bold">Our Core Values</span>
+                    <h2 class="font-headline-lg text-headline-lg mt-2 fw-bold">What We Stand For</h2>
+                    <p class="text-on-surface-variant mx-auto mt-3" style="max-width: 600px;">The principles that guide every feature we build and every decision we make for your financial future.</p>
+                </div>
+                
+
+                
+                <div class="row g-4 position-relative z-1">
+                    <div class="col-md-4">
+                        <div class="value-card p-5 rounded-4 h-100 text-center cursor-pointer shadow-sm">
+                            <div class="icon-box mx-auto rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                                <span class="material-symbols-outlined text-primary fs-1 transition-colors">visibility</span>
+                            </div>
+                            <h3 class="font-headline-md mb-3 fs-3 fw-bold">Transparency</h3>
+                            <p class="text-on-surface-variant text-body-md mb-0 lh-lg">No hidden fees, no fine print traps. We build relationships on absolute honesty and clear communication about your money.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card p-5 rounded-4 h-100 text-center cursor-pointer shadow-sm position-relative mt-md-4">
+                            <div class="icon-box mx-auto rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                                <span class="material-symbols-outlined text-primary fs-1 transition-colors">rocket_launch</span>
+                            </div>
+                            <h3 class="font-headline-md mb-3 fs-3 fw-bold">Innovation</h3>
+                            <p class="text-on-surface-variant text-body-md mb-0 lh-lg">We don't just follow trends; we set them. Our engineering team works tirelessly to simplify complex financial tasks.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card p-5 rounded-4 h-100 text-center cursor-pointer shadow-sm">
+                            <div class="icon-box mx-auto rounded-circle d-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                                <span class="material-symbols-outlined text-primary fs-1 transition-colors">groups</span>
+                            </div>
+                            <h3 class="font-headline-md mb-3 fs-3 fw-bold">Inclusion</h3>
+                            <p class="text-on-surface-variant text-body-md mb-0 lh-lg">Banking should be accessible to everyone. We design our powerful financial tools to be intuitive for all skill levels and needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. In the News -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max mb-5">
+                <div class="text-center">
+                    <span class="text-primary font-label-md text-uppercase letter-spacing-wider fw-bold">Press & Media</span>
+                    <h2 class="font-headline-lg text-headline-lg mt-2 fw-bold">Featured In</h2>
+                </div>
+            </div>
+
+
+
+            <div class="container max-w-container-max">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="press-bento-card cursor-pointer">
+                            <div class="quote-mark">"</div>
+                            <div class="d-flex align-items-center gap-3 mb-4 position-relative z-1">
+                                <div class="brand-icon-wrapper rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background: rgba(255,255,255,0.03);">
+                                    <span class="fs-4 fw-bold text-white" style="font-family: 'Times New Roman', Times, serif;">F</span>
+                                </div>
+                                <span class="font-headline-md fw-bold fs-3 bento-logo-text" style="font-family: 'Times New Roman', Times, serif; letter-spacing: -1px;">Forbes</span>
+                            </div>
+                            <p class="bento-quote-text position-relative z-1 mb-5">"The fintech startup that is actually putting everyday customers first. A masterclass in digital user experience."</p>
+                            <a href="#" class="bento-link position-relative z-1">Read Full Article <span class="material-symbols-outlined fs-5">arrow_forward</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="press-bento-card cursor-pointer">
+                            <div class="quote-mark">"</div>
+                            <div class="d-flex align-items-center gap-3 mb-4 position-relative z-1">
+                                <div class="brand-icon-wrapper rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background: rgba(255,255,255,0.03);">
+                                    <span class="fs-5 fw-bold text-success" style="font-family: system-ui, -apple-system, sans-serif;">TC</span>
+                                </div>
+                                <span class="font-headline-md fw-bold fs-4 bento-logo-text" style="font-family: system-ui, -apple-system, sans-serif; letter-spacing: -0.5px;">TECHCRUNCH</span>
+                            </div>
+                            <p class="bento-quote-text position-relative z-1 mb-5">"Stackly's $45M Series A marks a massive shift in modern retail banking. They are redefining the standard."</p>
+                            <a href="#" class="bento-link position-relative z-1">Read Full Article <span class="material-symbols-outlined fs-5">arrow_forward</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="press-bento-card cursor-pointer">
+                            <div class="quote-mark">"</div>
+                            <div class="d-flex align-items-center gap-3 mb-4 position-relative z-1">
+                                <div class="brand-icon-wrapper rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background: rgba(255,255,255,0.03);">
+                                    <span class="fs-4 fw-bold text-primary" style="font-family: 'Arial Black', sans-serif;">B</span>
+                                </div>
+                                <span class="font-headline-md fw-bold fs-4 bento-logo-text" style="font-family: 'Arial Black', sans-serif;">Bloomberg</span>
+                            </div>
+                            <p class="bento-quote-text position-relative z-1 mb-5">"While digital banks are struggling, Stackly is showing unprecedented steady profit and user growth."</p>
+                            <a href="#" class="bento-link position-relative z-1">Read Full Article <span class="material-symbols-outlined fs-5">arrow_forward</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="press-bento-card cursor-pointer">
+                            <div class="quote-mark">"</div>
+                            <div class="d-flex align-items-center gap-3 mb-4 position-relative z-1">
+                                <div class="brand-icon-wrapper rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; background: rgba(255,255,255,0.03);">
+                                    <span class="fs-5 fw-black text-danger" style="font-family: monospace;">W</span>
+                                </div>
+                                <span class="font-headline-md fw-black fs-4 bento-logo-text" style="font-family: monospace; letter-spacing: 2px;">WIRED</span>
+                            </div>
+                            <p class="bento-quote-text position-relative z-1 mb-5">"The absolute cleanest and most intuitive UI we've seen in the finance sector this entire decade."</p>
+                            <a href="#" class="bento-link position-relative z-1">Read Full Article <span class="material-symbols-outlined fs-5">arrow_forward</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- 7. Career Teaser -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="career-cta-wrapper position-relative rounded-4 overflow-hidden shadow-lg p-5 text-center d-flex flex-column align-items-center justify-content-center">
+                    
+                    <!-- Avatar Group -->
+                    <div class="avatar-group mb-4 d-flex justify-content-center position-relative z-1">
+                        <img src="https://i.pravatar.cc/100?img=33" alt="Team Member" class="avatar-img rounded-circle border border-2 border-white shadow-sm">
+                        <img src="https://i.pravatar.cc/100?img=47" alt="Team Member" class="avatar-img rounded-circle border border-2 border-white shadow-sm">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Team Member" class="avatar-img rounded-circle border border-2 border-white shadow-sm">
+                        <img src="https://i.pravatar.cc/100?img=32" alt="Team Member" class="avatar-img rounded-circle border border-2 border-white shadow-sm">
+                        <div class="avatar-img rounded-circle border border-2 border-white shadow-sm bg-surface d-flex align-items-center justify-content-center text-primary font-label-md fw-bold">
+                            +42
+                        </div>
+                    </div>
+
+                    <div class="position-relative z-1">
+                        <h2 class="font-headline-xl text-white mb-3 fw-bold">Build the Future of Finance</h2>
+                        <p class="text-white text-opacity-75 text-body-lg mb-5 mx-auto" style="max-width: 600px;">We are always looking for visionary thinkers, brilliant engineers, and creative designers to join our rapidly growing team.</p>
+                        
+                        <a href="#" class="btn btn-light btn-lg rounded-pill px-5 py-3 font-label-md fw-bold text-primary shadow-lg d-inline-flex align-items-center gap-2 btn-career-hover text-decoration-none">
+                            View Open Positions <span class="material-symbols-outlined fs-5">arrow_forward</span>
+                        </a>
+                    </div>
+
+                    <!-- Ambient Glow Effects -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100 pointer-events-none" style="background: radial-gradient(circle at 20% 150%, rgba(217, 70, 239, 0.4) 0%, transparent 50%); z-index: 0;"></div>
+                    <div class="position-absolute top-0 start-0 w-100 h-100 pointer-events-none" style="background: radial-gradient(circle at 80% -50%, rgba(56, 189, 248, 0.4) 0%, transparent 50%); z-index: 0;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Environmental Impact -->
+        <section class="py-5 " data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="bg-surface-container-high rounded-5 p-4 p-lg-5 border border-outline-variant shadow-sm position-relative overflow-hidden">
+                    <!-- Ambient Green Glow -->
+                    <div class="position-absolute top-0 end-0 w-100 h-100 pointer-events-none" style="background: radial-gradient(circle at 80% 20%, rgba(34, 197, 94, 0.15) 0%, transparent 60%); z-index: 0;"></div>
+                    
+                    <div class="row align-items-center gy-5 position-relative z-1">
+                        <div class="col-lg-5 text-center text-lg-start">
+                            <div class="d-inline-flex align-items-center gap-2 bg-success bg-opacity-10 text-success px-4 py-2 rounded-pill text-label-md fw-bold mb-4 border border-success border-opacity-25">
+                                <span class="material-symbols-outlined fs-5">eco</span>
+                                100% Carbon Neutral
+                            </div>
+                            <h2 class="font-headline-lg text-headline-lg mb-4">Green Banking Initiatives</h2>
+                            <p class="text-on-surface-variant mb-0 text-body-lg mx-auto mx-lg-0" style="max-width: 500px;">
+                                At Stackly, we believe financial prosperity shouldn't cost the Earth. We've committed to total carbon neutrality across our operations and prioritize investments in renewable energy.
+                            </p>
+                        </div>
+                        
+                        <div class="col-lg-7">
+                            <div class="row g-4">
+                                <!-- Stat 1 -->
+                                <div class="col-sm-6">
+                                    <div class="eco-stat-card cursor-pointer">
+                                        <div class="eco-icon-box mb-3">
+                                            <span class="material-symbols-outlined">forest</span>
+                                        </div>
+                                        <h4 class="fw-bold text-headline-md mb-1 eco-text-success">2.5M+</h4>
+                                        <p class="text-label-md text-on-surface-variant mb-0">Trees Planted</p>
+                                    </div>
+                                </div>
+                                <!-- Stat 2 -->
+                                <div class="col-sm-6">
+                                    <div class="eco-stat-card cursor-pointer">
+                                        <div class="eco-icon-box mb-3">
+                                            <span class="material-symbols-outlined">solar_power</span>
+                                        </div>
+                                        <h4 class="fw-bold text-headline-md mb-1 eco-text-success">100%</h4>
+                                        <p class="text-label-md text-on-surface-variant mb-0">Renewable Energy</p>
+                                    </div>
+                                </div>
+                                <!-- Stat 3 -->
+                                <div class="col-sm-6">
+                                    <div class="eco-stat-card cursor-pointer">
+                                        <div class="eco-icon-box mb-3">
+                                            <span class="material-symbols-outlined">block</span>
+                                        </div>
+                                        <h4 class="fw-bold text-headline-md mb-1 eco-text-success">0%</h4>
+                                        <p class="text-label-md text-on-surface-variant mb-0">Fossil Fuel Funding</p>
+                                    </div>
+                                </div>
+                                <!-- Stat 4 -->
+                                <div class="col-sm-6">
+                                    <div class="eco-stat-card cursor-pointer">
+                                        <div class="eco-icon-box mb-3">
+                                            <span class="material-symbols-outlined">description</span>
+                                        </div>
+                                        <h4 class="fw-bold text-headline-md mb-1 eco-text-success">98%</h4>
+                                        <p class="text-label-md text-on-surface-variant mb-0">Paperless Operations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

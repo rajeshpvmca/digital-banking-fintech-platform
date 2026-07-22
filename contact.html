@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Contact Us | Stackly Banking</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-surface font-body-md text-on-surface overflow-x-hidden">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main class="pt-20">
+        <!-- New Contact Hero Section -->
+        <section class="position-relative d-flex align-items-center justify-content-center overflow-hidden" style="min-height: 80vh;">
+            <!-- Background Image with Overlay -->
+            <div class="position-absolute inset-0 w-100 h-100 z-0">
+                <div class="position-absolute inset-0 w-100 h-100 bg-dark bg-opacity-75" style="z-index: 1;"></div>
+                <div class="w-100 h-100 transition-transform" style="background-image: url('assets/images/contact_hero_bg_1784691866921.png'); background-size: cover; background-position: center; animation: pulse 15s infinite alternate;"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="container position-relative text-center z-1 px-3" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-white bg-opacity-10 text-white rounded-pill font-label-sm text-label-sm mb-4 border border-white border-opacity-25" style="backdrop-filter: blur(8px);">
+                    <span class="material-symbols-outlined fs-6">support_agent</span>
+                    Customer Care Excellence
+                </div>
+                <h1 class="font-headline-xl text-headline-xl text-white mb-4 fw-bold lh-sm" style="text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                    Get in Touch with <br>
+                    <span class="text-primary">Stackly Support</span>
+                </h1>
+                <p class="text-white text-opacity-75 text-body-lg mx-auto mb-5" style="max-width: 750px; font-size: 1.125rem; line-height: 1.7;">
+                    Whether you're looking for support, partnership, or just a quick chat, our dedicated team of digital banking specialists is here to assist you 24/7.
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <button class="btn indigo-gradient text-white px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Contact Support</button>
+                    <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2" style="backdrop-filter: blur(8px);">
+                        Visit Help Center
+                    </button>
+                </div>
+            </div>
+        </section>
+
+         <!-- Contact Info Cards -->
+        <section class="pt-5 container" data-aos="fade-up">
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                <div class="col">
+                    <div class="bg-surface-container border border-outline-variant h-100 p-4 p-md-5 hover-lift rounded-4 shadow-sm group-card position-relative overflow-hidden text-center transition-all hover-border-primary">
+                        <div class="position-absolute top-0 start-50 translate-middle-x rounded-circle mix-blend-screen opacity-20" style="width: 150px; height: 150px; background: radial-gradient(circle, #38bdf8 0%, transparent 70%); filter: blur(30px);"></div>
+                        <div class="icon-wrapper bg-primary bg-opacity-10 text-primary rounded-circle d-inline-flex p-3 mx-auto mb-4 position-relative z-1">
+                            <span class="material-symbols-outlined fs-2 text-white-50">location_on</span>
+                        </div>
+                        <h4 class="font-title-md fw-bold mb-3 text-on-surface position-relative z-1">Our Address</h4>
+                        <a href="https://www.google.com/maps/search/?api=1&query=MMR+Complex,+Chinna+Thirupathi,+Salem,+Tamil+Nadu+636008" target="_blank" class="text-decoration-none text-on-surface-variant hover-text-primary transition-colors position-relative z-1 d-block lh-lg">MMR Complex, Chinna Thirupathi,<br/> Salem, Tamil Nadu 636008</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-surface-container border border-outline-variant h-100 p-4 p-md-5 hover-lift rounded-4 shadow-sm group-card position-relative overflow-hidden text-center transition-all hover-border-primary">
+                        <div class="position-absolute top-0 start-50 translate-middle-x rounded-circle mix-blend-screen opacity-20" style="width: 150px; height: 150px; background: radial-gradient(circle, #818cf8 0%, transparent 70%); filter: blur(30px);"></div>
+                        <div class="icon-wrapper bg-info bg-opacity-10 text-info rounded-circle d-inline-flex p-3 mx-auto mb-4 position-relative z-1">
+                            <span class="material-symbols-outlined fs-2">mail</span>
+                        </div>
+                        <h4 class="font-title-md fw-bold mb-3 text-on-surface position-relative z-1">Email Us</h4>
+                        <div class="d-flex flex-column gap-2 position-relative z-1">
+                            <a href="mailto:support@stackly.com" class="text-decoration-none text-on-surface-variant hover-text-info transition-colors">support@stackly.com</a>
+                            <a href="mailto:contact@stackly.com" class="text-decoration-none text-on-surface-variant hover-text-info transition-colors">contact@stackly.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-surface-container border border-outline-variant h-100 p-4 p-md-5 hover-lift rounded-4 shadow-sm group-card position-relative overflow-hidden text-center transition-all hover-border-primary">
+                        <div class="position-absolute top-0 start-50 translate-middle-x rounded-circle mix-blend-screen opacity-20" style="width: 150px; height: 150px; background: radial-gradient(circle, #34d399 0%, transparent 70%); filter: blur(30px);"></div>
+                        <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-circle d-inline-flex p-3 mx-auto mb-4 position-relative z-1">
+                            <span class="material-symbols-outlined fs-2">call</span>
+                        </div>
+                        <h4 class="font-title-md fw-bold mb-3 text-on-surface position-relative z-1">Call Us</h4>
+                        <div class="d-flex flex-column gap-2 position-relative z-1">
+                            <a href="tel:+919876543210" class="text-decoration-none text-on-surface-variant hover-text-success transition-colors">+91 9876543210</a>
+                            <a href="tel:+918790543126" class="text-decoration-none text-on-surface-variant hover-text-success transition-colors">+91 8790543126</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form and Map Section -->
+        <section class="py-5 container mb-5" data-aos="fade-up" data-aos-duration="800">
+            <div class="row g-5 align-items-stretch">
+                
+                <!-- Contact Form -->
+                <div class="col-lg-6 d-flex flex-column">
+                    <div class="bg-surface-container-low border border-outline-variant p-4 p-lg-5 rounded-4 position-relative overflow-hidden shadow-sm flex-grow-1">
+                        <!-- Decorative background glow -->
+                        <div class="position-absolute top-0 end-0 w-50 h-50 rounded-circle mix-blend-screen opacity-20" style="background: radial-gradient(circle, var(--bs-primary) 0%, transparent 70%); filter: blur(50px); z-index: 0;"></div>
+                        
+                        <div class="mb-4 text-center text-lg-start position-relative z-1">
+                            <span class="text-primary font-label-md fw-bold tracking-wider text-uppercase">Direct Line</span>
+                            <h2 class="font-headline-md fw-bold text-on-surface mt-2 mb-2">Send Us a Message</h2>
+                            <p class="font-body-md text-on-surface-variant">We'd love to hear from you. Fill out the form and our team will respond shortly.</p>
+                        </div>
+                        
+                        <form class="contact-form position-relative z-1" action="404.html" method="GET" id="contactForm">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6">
+                                    <label for="nameInput" class="form-label font-label-sm text-on-surface fw-bold">Your Name</label>
+                                    <input type="text" class="form-control bg-surface border-outline-variant text-on-surface py-3 px-4 rounded-3 focus-ring shadow-none" id="nameInput" placeholder="John Doe" oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')" required>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="emailInput" class="form-label font-label-sm text-on-surface fw-bold">Email Address</label>
+                                    <input type="email" class="form-control bg-surface border-outline-variant text-on-surface py-3 px-4 rounded-3 focus-ring shadow-none" id="emailInput" placeholder="name@stackly.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subjectInput" class="form-label font-label-sm text-on-surface fw-bold">Subject</label>
+                                    <input type="text" class="form-control bg-surface border-outline-variant text-on-surface py-3 px-4 rounded-3 focus-ring shadow-none" id="subjectInput" placeholder="How can we help?" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="messageInput" class="form-label font-label-sm text-on-surface fw-bold">Your Message</label>
+                                    <textarea class="form-control bg-surface border-outline-variant text-on-surface rounded-4 py-3 px-4 focus-ring shadow-none" placeholder="Write your message here..." id="messageInput" style="height: 150px; resize: none;" required></textarea>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <button type="submit" id="submitBtn" class="btn indigo-gradient rounded-pill px-5 py-3 font-label-md fw-bold w-100 transition-transform hover-scale-105 text-white d-flex align-items-center justify-content-center gap-2 border-0 shadow-sm">
+                                        Send Message <span class="material-symbols-outlined fs-5">send</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Map Placeholder -->
+                <div class="col-lg-6 d-flex flex-column">
+                    <div class="bg-surface-container border border-outline-variant w-100 flex-grow-1 rounded-4 overflow-hidden shadow-sm position-relative group-card p-2" style="min-height: 400px;">
+                        <!-- Custom Map Filter Overlay for Dark Theme Match -->
+                        <div class="position-absolute inset-0 w-100 h-100 pe-none" style="background: rgba(15, 23, 42, 0.15); z-index: 10;"></div>
+                        <!-- We use an iframe for Google Maps. Here is a generic embed -->
+                        <iframe src="https://maps.google.com/maps?q=MMR+Complex,+Chinna+Thirupathi,+Salem,+Tamil+Nadu+636008&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; border-radius: 12px; filter: invert(90%) hue-rotate(210deg) brightness(85%) contrast(90%) sepia(10%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="transition-all"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

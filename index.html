@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Stackly Banking | The Future of Money</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main class="pt-20">
+        <!-- 1. Hero Section (Swiper) -->
+        <section class="position-relative p-0 m-0" style="height: 100vh; min-height: 600px;" data-aos="fade-up">
+            <div class="swiper hero-swiper w-100 h-100">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide position-relative h-100">
+                        <div class="position-absolute inset-0 bg-cover bg-center" style="background-image: url('assets/images/hero_bg_1_1784641617992.png'); width: 100%; height: 100%;"></div>
+                        <div class="position-absolute inset-0 bg-dark bg-opacity-75" style="width: 100%; height: 100%;"></div>
+                        <div class="container max-w-container-max position-relative h-100 d-flex align-items-center z-1 py-5">
+                            <div class="row align-items-center w-100">
+                                <div class="col-lg-8 text-white pt-5">
+                                    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-primary bg-opacity-25 text-white rounded-pill font-label-sm text-label-sm mb-3">
+                                        <span class="material-symbols-outlined fs-6" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+                                        Regulated &amp; Secure Global Banking
+                                    </div>
+                                    <h1 class="font-headline-xl text-headline-xl lh-sm mb-4">
+                                        The Future of <br/>
+                                        <span class="text-primary">Money is Stackly</span>
+                                    </h1>
+                                    <p class="font-body-lg text-body-lg text-white-50 mb-4 pe-lg-5" style="max-width: 600px;">
+                                        Experience the evolution of finance. Stackly offers a borderless ecosystem where security meets speed, empowering you to manage, invest, and grow your wealth instantly.
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-3 pt-2">
+                                        <button class="btn indigo-gradient text-white px-4 py-3 rounded-3 font-label-md text-label-md shadow transition-all hover-scale-105 border-0">Open Free Account</button>
+                                        <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-4 py-3 rounded-3 font-label-md text-label-md d-flex align-items-center gap-2 transition-all hover-border-primary">
+                                            <span class="material-symbols-outlined">play_circle</span>
+                                            Watch Video
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide position-relative h-100">
+                        <div class="position-absolute inset-0 bg-cover bg-center" style="background-image: url('assets/images/hero_bg_2_1784641629753.png'); width: 100%; height: 100%;"></div>
+                        <div class="position-absolute inset-0 bg-dark bg-opacity-75" style="width: 100%; height: 100%;"></div>
+                        <div class="container max-w-container-max position-relative h-100 d-flex align-items-center z-1 py-5">
+                            <div class="row align-items-center w-100">
+                                <div class="col-lg-8 text-white pt-5">
+                                    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-tertiary bg-opacity-25 text-white rounded-pill font-label-sm text-label-sm mb-3">
+                                        <span class="material-symbols-outlined fs-6" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+                                        Premium Wealth Management
+                                    </div>
+                                    <h1 class="font-headline-xl text-headline-xl lh-sm mb-4">
+                                        Grow Your <br/>
+                                        <span class="text-tertiary">Wealth Intelligently</span>
+                                    </h1>
+                                    <p class="font-body-lg text-body-lg text-white-50 mb-4 pe-lg-5" style="max-width: 600px;">
+                                        Access exclusive institutional-grade investment portfolios, personalized advisory, and real-time market analytics to build your legacy.
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-3 pt-2">
+                                        <button class="btn bg-tertiary text-white px-4 py-3 rounded-3 font-label-md text-label-md shadow transition-all hover-scale-105 border-0">Explore Wealth</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide position-relative h-100">
+                        <div class="position-absolute inset-0 bg-cover bg-center" style="background-image: url('assets/images/hero_bg_3_1784641642010.png'); width: 100%; height: 100%;"></div>
+                        <div class="position-absolute inset-0 bg-dark bg-opacity-75" style="width: 100%; height: 100%;"></div>
+                        <div class="container max-w-container-max position-relative h-100 d-flex align-items-center z-1 py-5">
+                            <div class="row align-items-center w-100">
+                                <div class="col-lg-8 text-white pt-5">
+                                    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-info bg-opacity-25 text-white rounded-pill font-label-sm text-label-sm mb-3">
+                                        <span class="material-symbols-outlined fs-6" style="font-variation-settings: 'FILL' 1;">public</span>
+                                        Borderless Infrastructure
+                                    </div>
+                                    <h1 class="font-headline-xl text-headline-xl lh-sm mb-4">
+                                        Global <br/>
+                                        <span class="text-info">Financial Network</span>
+                                    </h1>
+                                    <p class="font-body-lg text-body-lg text-white-50 mb-4 pe-lg-5" style="max-width: 600px;">
+                                        Send and receive money instantly across 150+ countries. Experience true global liquidity with zero friction and enterprise-grade security.
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-3 pt-2">
+                                        <button class="btn btn-info text-dark px-4 py-3 rounded-3 font-label-md text-label-md shadow transition-all hover-scale-105 border-0">Global Transfers</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next text-white opacity-50 transition-opacity hover-opacity-100"></div>
+                <div class="swiper-button-prev text-white opacity-50 transition-opacity hover-opacity-100"></div>
+            </div>
+        </section>
+
+        <!-- 2. Trust Bar -->
+        <section class="py-5 bg-surface-container-lowest border-top border-bottom border-outline-variant border-opacity-25" data-aos="fade-up">
+            <div class="container max-w-container-max text-center">
+                <p class="font-label-md text-label-md text-on-surface-variant mb-stack-md text-uppercase tracking-widest mb-4">Trusted by 5M+ users and global leaders</p>
+                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 opacity-50" style="filter: grayscale(100%); transition: all 0.5s;" onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1'" onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.5'">
+                    <span class="font-headline-md fw-bold">TECHCORP</span>
+                    <span class="font-headline-md fw-bold">GLOBALFIN</span>
+                    <span class="font-headline-md fw-bold">VELOCITY</span>
+                    <span class="font-headline-md fw-bold">STACKLY</span>
+                    <span class="font-headline-md fw-bold">QUANTUM</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Core Value Props -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="row g-2 g-md-4 align-items-stretch">
+                    
+                    <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                        <div class="value-card p-2 p-sm-3 p-lg-5 rounded-4 border border-outline-variant h-100 shadow-sm d-flex flex-column align-items-center text-center">
+                            <div class="icon-box rounded-3 indigo-gradient d-flex align-items-center justify-content-center mb-2 mb-md-4 shadow" style="width: 48px; height: 48px; min-width: 48px;">
+                                <span class="material-symbols-outlined text-white fs-4" style="font-variation-settings: 'FILL' 1;">security</span>
+                            </div>
+                            <h3 class="font-label-md font-md-headline-md fw-bold text-on-surface mb-2 transition-colors" style="font-size: clamp(0.75rem, 2vw, 1.25rem);">Institutional Security</h3>
+                            <p class="font-body-sm text-on-surface-variant lh-sm lh-md-lg mb-0 transition-colors d-none d-sm-block" style="font-size: clamp(0.65rem, 1.5vw, 1rem);">
+                                Multi-layer encryption and cold storage keep your funds bulletproof.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-card p-2 p-sm-3 p-lg-5 rounded-4 border border-outline-variant h-100 shadow-sm d-flex flex-column align-items-center text-center">
+                            <div class="icon-box rounded-3 indigo-gradient d-flex align-items-center justify-content-center mb-2 mb-md-4 shadow" style="width: 48px; height: 48px; min-width: 48px;">
+                                <span class="material-symbols-outlined text-white fs-4" style="font-variation-settings: 'FILL' 1;">bolt</span>
+                            </div>
+                            <h3 class="font-label-md font-md-headline-md fw-bold text-on-surface mb-2 transition-colors" style="font-size: clamp(0.75rem, 2vw, 1.25rem);">Instant Transactions</h3>
+                            <p class="font-body-sm text-on-surface-variant lh-sm lh-md-lg mb-0 transition-colors d-none d-sm-block" style="font-size: clamp(0.65rem, 1.5vw, 1rem);">
+                                Move money globally in seconds, not days. Capital is always liquid.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-card p-2 p-sm-3 p-lg-5 rounded-4 border border-outline-variant h-100 shadow-sm d-flex flex-column align-items-center text-center">
+                            <div class="icon-box rounded-3 indigo-gradient d-flex align-items-center justify-content-center mb-2 mb-md-4 shadow" style="width: 48px; height: 48px; min-width: 48px;">
+                                <span class="material-symbols-outlined text-white fs-4" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+                            </div>
+                            <h3 class="font-label-md font-md-headline-md fw-bold text-on-surface mb-2 transition-colors" style="font-size: clamp(0.75rem, 2vw, 1.25rem);">Zero Hidden Fees</h3>
+                            <p class="font-body-sm text-on-surface-variant lh-sm lh-md-lg mb-0 transition-colors d-none d-sm-block" style="font-size: clamp(0.65rem, 1.5vw, 1rem);">
+                                Fair, transparent pricing. We pass the institutional savings directly to you.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Live Dashboard Preview -->
+        <section class="py-5 bg-surface" data-aos="fade-up">
+            <div class="container max-w-container-max text-center mb-5">
+                <h2 class="font-headline-lg text-headline-lg text-on-surface mb-3">Command Your Financial Future</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mx-auto" style="max-width: 700px;">A central intelligence hub for all your accounts, investments, and assets.</p>
+            </div>
+            <div class="container" style="max-width: 1000px;">
+                <div class="bg-white rounded-4 shadow-lg border border-outline-variant overflow-hidden">
+                    <!-- Dashboard Header Mockup -->
+                    <div class="bg-surface-container-low p-3 border-bottom border-outline-variant d-flex justify-content-between align-items-center">
+                        <div class="d-flex gap-2">
+                            <div class="rounded-circle bg-danger" style="width: 12px; height: 12px;"></div>
+                            <div class="rounded-circle bg-warning" style="width: 12px; height: 12px;"></div>
+                            <div class="rounded-circle bg-success" style="width: 12px; height: 12px;"></div>
+                        </div>
+                        <div class="bg-white rounded-2 px-3 py-1 text-on-surface-variant border border-outline-variant" style="font-size: 14px;">app.stacklybanking.com</div>
+                        <div style="width: 48px;"></div>
+                    </div>
+                    <!-- Dashboard Body -->
+                    <div class="p-4 p-md-5">
+                        <div class="row g-5">
+                            <div class="col-md-8">
+                                <div class="position-relative bg-surface-container-lowest rounded-4 p-4 border border-outline-variant mb-4" style="height: 250px;">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <h4 class="font-label-md text-label-md text-on-surface mb-0">Wealth Growth</h4>
+                                        <span class="text-tertiary font-label-md">+12.4% vs last month</span>
+                                    </div>
+                                    <!-- Simple Chart Placeholder SVG -->
+                                    <svg class="w-100 h-100" style="max-height: 160px;" viewBox="0 0 400 100" preserveAspectRatio="none">
+                                        <path d="M0 80 Q 50 70, 100 85 T 200 40 T 300 60 T 400 10" fill="none" stroke="#4f46e5" stroke-width="3"></path>
+                                        <path d="M0 80 Q 50 70, 100 85 T 200 40 T 300 60 T 400 10 L 400 100 L 0 100 Z" fill="url(#grad1)" opacity="0.1"></path>
+                                        <defs>
+                                            <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+                                                <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1"></stop>
+                                                <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <div class="bg-surface-container rounded-3 p-3 h-100">
+                                            <p class="text-on-surface-variant text-uppercase mb-1" style="font-size: 12px;">Cash</p>
+                                            <p class="font-headline-md text-headline-md text-on-surface mb-0">$42.8k</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="bg-surface-container rounded-3 p-3 h-100">
+                                            <p class="text-on-surface-variant text-uppercase mb-1" style="font-size: 12px;">Stocks</p>
+                                            <p class="font-headline-md text-headline-md text-on-surface mb-0">$68.1k</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="bg-surface-container rounded-3 p-3 h-100">
+                                            <p class="text-on-surface-variant text-uppercase mb-1" style="font-size: 12px;">Crypto</p>
+                                            <p class="font-headline-md text-headline-md text-on-surface mb-0">$13.7k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="font-label-md text-label-md text-on-surface mb-3">Recent Activity</h4>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex align-items-center gap-3 p-2 rounded-3 hover-bg-surface-container-low transition-colors" style="cursor: pointer;">
+                                        <div class="bg-secondary-container rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+                                            <span class="material-symbols-outlined text-secondary" style="font-size: 16px;">restaurant</span>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="font-label-sm text-label-sm text-on-surface mb-0">Starbucks Cafe</p>
+                                            <p class="text-on-surface-variant mb-0" style="font-size: 10px;">Today, 9:14 AM</p>
+                                        </div>
+                                        <p class="font-label-sm text-label-sm text-on-surface mb-0">-$12.50</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 p-2 rounded-3 hover-bg-surface-container-low transition-colors" style="cursor: pointer;">
+                                        <div class="bg-primary bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+                                            <span class="material-symbols-outlined text-primary" style="font-size: 16px;">person</span>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="font-label-sm text-label-sm text-on-surface mb-0">Sarah Johnson</p>
+                                            <p class="text-on-surface-variant mb-0" style="font-size: 10px;">Yesterday, 2:30 PM</p>
+                                        </div>
+                                        <p class="font-label-sm text-label-sm text-tertiary mb-0">+$250.00</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 p-2 rounded-3 hover-bg-surface-container-low transition-colors" style="cursor: pointer;">
+                                        <div class="bg-surface-container-highest rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+                                            <span class="material-symbols-outlined text-on-surface-variant" style="font-size: 16px;">credit_card</span>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <p class="font-label-sm text-label-sm text-on-surface mb-0">ATM Withdrawal</p>
+                                            <p class="text-on-surface-variant mb-0" style="font-size: 10px;">Jan 18, 5:45 PM</p>
+                                        </div>
+                                        <p class="font-label-sm text-label-sm text-on-surface mb-0">-$100.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Product Bento Grid -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <h2 class="font-headline-lg text-headline-lg text-center mb-5">One Platform, <br class="d-md-none"><span class="text-primary">Infinite Possibilities</span></h2>
+                <div class="row g-4 align-items-stretch" style="min-height: 500px;">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-delay="0">
+                        <div class="position-relative overflow-hidden bg-white border border-outline-variant rounded-4 p-4 p-md-5 d-flex flex-column justify-content-end h-100 transition-all hover-border-primary hover-scale-105 shadow-sm group cursor-pointer" style="min-height: 350px;">
+                            <div class="position-absolute inset-0 w-100 h-100 transition-transform group-hover-scale-110" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBWwNV0W8V8FdQeP6rEvSNihAGcqXEsAqzBEn_akU42EQ0NPrK3kfLSv2zM5Ov1Gxw-Aak2ACNE7K5MYLFfRetpyqdYwjESuwDpAMM3u0BDm2p8OamTJI7faLBprjboLcU2K-FG2E5uxwFD5QK5Ow8dl-3sz_0-PFsUWUQTuLjFUj6Vw1Ths-Qhhquz3JNd8esrBywa3mITUH7Bx-H0Gmbdu2sBRyL9XZuhLZgbVxdEGkPD9TMe2P_jce3LTiBzXmKFp4GNUblRcjA'); background-size: cover; background-position: center; opacity: 0.15;"></div>
+                            <div class="position-absolute inset-0 w-100 h-100 bg-gradient-to-t from-white via-transparent to-transparent opacity-50"></div>
+                            <div class="position-relative z-1">
+                                <span class="material-symbols-outlined text-primary mb-3 transition-transform group-hover-scale-110" style="font-size: 40px; font-variation-settings: 'FILL' 1;">person_pin</span>
+                                <h3 class="font-headline-md text-headline-md mb-2 fw-bold text-on-surface">Personal Banking</h3>
+                                <p class="text-on-surface-variant font-body-md mb-4 lh-lg">The ultimate account for your daily needs with high-yield savings, premium metal cards, and intelligent spending insights.</p>
+                                <a class="text-primary font-label-md fw-bold d-inline-flex align-items-center gap-2 text-decoration-none transition-transform hover-translate-x" href="#">
+                                    Explore Personal <span class="material-symbols-outlined fs-5">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Bento Grid -->
+                    <div class="col-md-6">
+                        <div class="row g-4 h-100">
+                            <!-- Top Wide Bento -->
+                            <div class="col-12" data-aos="fade-down" data-aos-delay="100">
+                                <div class="position-relative overflow-hidden indigo-gradient text-white rounded-4 p-4 p-md-5 d-flex flex-column justify-content-center h-100 transition-transform hover-scale-105 shadow-lg group cursor-pointer" style="min-height: 200px;">
+                                    <div class="position-relative z-1 w-75">
+                                        <h3 class="font-headline-md text-headline-md mb-2 fw-bold text-white">Business Global</h3>
+                                        <p class="text-white text-opacity-75 font-body-sm mb-0 lh-lg">Scale your enterprise with multi-currency accounts, instant global transfers, and payroll automation.</p>
+                                    </div>
+                                    <div class="position-absolute end-0 top-50 translate-middle-y me-4 transition-transform group-hover-scale-110">
+                                        <span class="material-symbols-outlined text-white text-opacity-25" style="font-size: 100px; font-variation-settings: 'FILL' 1;">business_center</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Bottom Left Small Bento -->
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                                <div class="position-relative overflow-hidden bg-surface-container-lowest border border-outline-variant rounded-4 p-4 h-100 transition-all hover-border-tertiary hover-scale-105 shadow-sm group cursor-pointer d-flex flex-column justify-content-between" style="min-height: 180px;">
+                                    <div>
+                                        <h3 class="font-headline-sm text-headline-sm mb-2 fw-bold text-on-surface">Wealth</h3>
+                                        <p class="text-on-surface-variant font-body-sm mb-0">Automated portfolios & direct stock trading.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end mt-4">
+                                        <a class="text-on-surface-variant hover-text-primary text-decoration-none font-label-sm fw-bold d-flex align-items-center gap-1 transition-colors" href="#">Learn more <span class="material-symbols-outlined fs-6">arrow_forward</span></a>
+                                        <div class="icon-box rounded-circle d-inline-flex align-items-center justify-content-center transition-transform group-hover-scale-110 shadow-sm" style="width: 48px; height: 48px; background: linear-gradient(135deg, rgba(223, 183, 140, 0.2), rgba(223, 183, 140, 0.4)); border: 1px solid rgba(223, 183, 140, 0.5);">
+                                            <span class="material-symbols-outlined fs-4" style="color: var(--tertiary); font-variation-settings: 'FILL' 1;">monitoring</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Bottom Right Small Bento -->
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="position-relative overflow-hidden bg-surface-container-lowest border border-outline-variant rounded-4 p-4 h-100 transition-all hover-border-primary hover-scale-105 shadow-sm group cursor-pointer d-flex flex-column justify-content-between" style="min-height: 180px;">
+                                    <div>
+                                        <h3 class="font-headline-sm text-headline-sm mb-2 fw-bold text-on-surface">Crypto</h3>
+                                        <p class="text-on-surface-variant font-body-sm mb-0">Buy, sell, and earn interest on digital assets.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end mt-4">
+                                        <a class="text-on-surface-variant hover-text-primary text-decoration-none font-label-sm fw-bold d-flex align-items-center gap-1 transition-colors" href="#">Learn more <span class="material-symbols-outlined fs-6">arrow_forward</span></a>
+                                        <div class="icon-box rounded-circle d-inline-flex align-items-center justify-content-center transition-transform group-hover-scale-110 shadow-sm" style="width: 48px; height: 48px; background: linear-gradient(135deg, rgba(76, 29, 149, 0.1), rgba(76, 29, 149, 0.2)); border: 1px solid rgba(76, 29, 149, 0.3);">
+                                            <span class="material-symbols-outlined fs-4" style="color: var(--primary); font-variation-settings: 'FILL' 1;">currency_bitcoin</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. 'The Future of Money' Narrative -->
+        <section class="py-5 bg-surface position-relative overflow-hidden" data-aos="fade-up">
+            <!-- Subtle background glow -->
+            <div class="position-absolute top-50 start-0 translate-middle-y rounded-circle" style="width: 600px; height: 600px; background: radial-gradient(circle, rgba(76,29,149,0.05) 0%, transparent 70%); z-index: 0;"></div>
+            
+            <div class="container max-w-container-max position-relative z-1">
+                <div class="row align-items-center g-5">
+                    <!-- Left Side: Immersive Image with Floating UI -->
+                    <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+                        <div class="position-relative rounded-4" style="height: 500px;">
+                            <!-- Main Image -->
+                            <div class="position-absolute top-0 start-0 w-100 h-100 rounded-4 overflow-hidden shadow-lg border border-outline-variant transition-transform hover-scale-105">
+                                <div class="position-absolute inset-0 w-100 h-100" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop'); background-size: cover; background-position: center;"></div>
+                                <div class="position-absolute inset-0 bg-primary bg-opacity-25" style="background: linear-gradient(135deg, rgba(76,29,149,0.4) 0%, rgba(223,183,140,0.2) 100%);"></div>
+                            </div>
+                            
+                            <!-- Floating Glass Card (Micro-interaction) -->
+                            <div class="position-absolute glass-card p-4 rounded-4 shadow-lg border border-white border-opacity-25 float-animation" style="bottom: -20px; right: -20px; width: 260px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); background: rgba(255, 255, 255, 0.85);">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <span class="font-label-sm fw-bold text-on-surface-variant">DeFi Staking Yield</span>
+                                    <span class="material-symbols-outlined" style="color: var(--primary);">trending_up</span>
+                                </div>
+                                <div class="d-flex align-items-end gap-2 mb-2">
+                                    <span class="font-headline-lg fw-bold lh-1" style="color: var(--primary);">+14.2</span>
+                                    <span class="font-label-md fw-bold mb-1" style="color: var(--tertiary);">% APY</span>
+                                </div>
+                                <div class="w-100 bg-surface-container-high rounded-pill" style="height: 6px;">
+                                    <div class="rounded-pill" style="width: 75%; height: 100%; background-color: var(--primary);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side: Content -->
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                        <div class="d-flex flex-column gap-4 ps-lg-5">
+                            <div>
+                                <span class="d-inline-block px-3 py-1 rounded-pill font-label-sm fw-bold mb-3" style="background-color: rgba(76, 29, 149, 0.1); color: var(--primary);">The Future of Money</span>
+                                <h2 class="font-headline-xl text-headline-xl text-on-surface lh-sm fw-bold mb-3">
+                                    Decentralized Finance, <br/>
+                                    <span class="text-gradient-premium">Unified Experience.</span>
+                                </h2>
+                                <p class="font-body-lg text-body-lg text-on-surface-variant lh-lg mb-0">
+                                    We believe money should be programmable, transparent, and accessible. Stackly bridges the gap between traditional fiat banking and the high-yield world of DeFi seamlessly.
+                                </p>
+                            </div>
+                            
+                            <!-- Feature List -->
+                            <div class="d-flex flex-column gap-3 mt-2">
+                                <div class="d-flex align-items-start gap-3 p-3 rounded-4 transition-colors hover-bg-surface-container group cursor-pointer border border-transparent hover-border-outline-variant">
+                                    <div class="icon-box rounded-circle d-flex align-items-center justify-content-center transition-transform group-hover-scale-110 shadow-sm" style="width: 48px; height: 48px; min-width: 48px; background: linear-gradient(135deg, rgba(223, 183, 140, 0.2), rgba(223, 183, 140, 0.4)); border: 1px solid rgba(223, 183, 140, 0.5);">
+                                        <span class="material-symbols-outlined transition-colors" style="color: var(--tertiary); font-variation-settings: 'FILL' 1;">account_tree</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-label-lg text-label-lg mb-1 fw-bold text-on-surface">Direct Protocol Access</h4>
+                                        <p class="text-body-sm text-on-surface-variant mb-0 lh-base">Access institutional-grade yield farming and staking directly from your main dashboard with one click.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-start gap-3 p-3 rounded-4 transition-colors hover-bg-surface-container group cursor-pointer border border-transparent hover-border-outline-variant">
+                                    <div class="icon-box rounded-circle d-flex align-items-center justify-content-center transition-transform group-hover-scale-110 shadow-sm" style="width: 48px; height: 48px; min-width: 48px; background: linear-gradient(135deg, rgba(76, 29, 149, 0.1), rgba(76, 29, 149, 0.2)); border: 1px solid rgba(76, 29, 149, 0.3);">
+                                        <span class="material-symbols-outlined transition-colors" style="color: var(--primary); font-variation-settings: 'FILL' 1;">verified_user</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-label-lg text-label-lg mb-1 fw-bold text-on-surface">Smart Contract Audits</h4>
+                                        <p class="text-body-sm text-on-surface-variant mb-0 lh-base">Every external DeFi integration is rigorously vetted by our top-tier security engineering team.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Testimonials -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <h2 class="font-headline-lg text-headline-lg text-center mb-5">Loved by Leaders</h2>
+                <div class="swiper testimonial-swiper py-4" style="mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);">
+                    <div class="swiper-wrapper align-items-stretch">
+                        <!-- Card 1 -->
+                        <div class="swiper-slide h-auto">
+                            <div class="p-4 p-md-5 bg-white rounded-4 border border-outline-variant shadow-sm text-on-surface-variant position-relative h-100 transition-transform hover-scale-105 group">
+                                <span class="material-symbols-outlined position-absolute top-0 start-0 ms-4 mt-4 transition-colors group-hover-text-primary" style="font-size: 60px; color: rgba(76, 29, 149, 0.1);">format_quote</span>
+                                <p class="fst-italic position-relative z-1 mb-4 pt-4 lh-lg">"Stackly completely changed how I manage my international business. The currency exchange rates are better than any bank I've used in 20 years."</p>
+                                <div class="d-flex align-items-center gap-3 mt-auto">
+                                    <img src="https://ui-avatars.com/api/?name=Marcus+Sterling&background=4c1d95&color=fff&rounded=true" alt="Marcus Sterling" style="width: 48px; height: 48px;" class="rounded-circle shadow-sm">
+                                    <div>
+                                        <p class="font-label-md text-label-md fw-bold text-on-surface fst-normal mb-0">Marcus Sterling</p>
+                                        <p class="text-primary fw-bold mb-0" style="font-size: 12px;">CEO, Sterling Logistics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="swiper-slide h-auto">
+                            <div class="p-4 p-md-5 bg-white rounded-4 border border-outline-variant shadow-sm text-on-surface-variant position-relative h-100 transition-transform hover-scale-105 group">
+                                <span class="material-symbols-outlined position-absolute top-0 start-0 ms-4 mt-4 transition-colors group-hover-text-tertiary" style="font-size: 60px; color: rgba(223, 183, 140, 0.2);">format_quote</span>
+                                <p class="fst-italic position-relative z-1 mb-4 pt-4 lh-lg">"The wealth management tools are top-notch. I can track my real estate, stocks, and crypto all in one single, high-fidelity view."</p>
+                                <div class="d-flex align-items-center gap-3 mt-auto">
+                                    <img src="https://ui-avatars.com/api/?name=Elena+Rodriguez&background=dfb78c&color=fff&rounded=true" alt="Elena Rodriguez" style="width: 48px; height: 48px;" class="rounded-circle shadow-sm">
+                                    <div>
+                                        <p class="font-label-md text-label-md fw-bold text-on-surface fst-normal mb-0">Dr. Elena Rodriguez</p>
+                                        <p class="text-tertiary fw-bold mb-0" style="font-size: 12px;">Private Investor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="swiper-slide h-auto">
+                            <div class="p-4 p-md-5 bg-white rounded-4 border border-outline-variant shadow-sm text-on-surface-variant position-relative h-100 transition-transform hover-scale-105 group">
+                                <span class="material-symbols-outlined position-absolute top-0 start-0 ms-4 mt-4 transition-colors group-hover-text-primary" style="font-size: 60px; color: rgba(76, 29, 149, 0.1);">format_quote</span>
+                                <p class="fst-italic position-relative z-1 mb-4 pt-4 lh-lg">"Finally, a bank that actually feels like it belongs in this century. Fast, intuitive, and the customer support is literally 24/7."</p>
+                                <div class="d-flex align-items-center gap-3 mt-auto">
+                                    <img src="https://ui-avatars.com/api/?name=Julian+Chen&background=4c1d95&color=fff&rounded=true" alt="Julian Chen" style="width: 48px; height: 48px;" class="rounded-circle shadow-sm">
+                                    <div>
+                                        <p class="font-label-md text-label-md fw-bold text-on-surface fst-normal mb-0">Julian Chen</p>
+                                        <p class="text-primary fw-bold mb-0" style="font-size: 12px;">Founder, NeoLabs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="swiper-slide h-auto">
+                            <div class="p-4 p-md-5 bg-white rounded-4 border border-outline-variant shadow-sm text-on-surface-variant position-relative h-100 transition-transform hover-scale-105 group">
+                                <span class="material-symbols-outlined position-absolute top-0 start-0 ms-4 mt-4 transition-colors group-hover-text-tertiary" style="font-size: 60px; color: rgba(223, 183, 140, 0.2);">format_quote</span>
+                                <p class="fst-italic position-relative z-1 mb-4 pt-4 lh-lg">"Their automated payroll features saved my HR team countless hours. We execute cross-border salaries with zero friction."</p>
+                                <div class="d-flex align-items-center gap-3 mt-auto">
+                                    <img src="https://ui-avatars.com/api/?name=Sarah+Jenkins&background=dfb78c&color=fff&rounded=true" alt="Sarah Jenkins" style="width: 48px; height: 48px;" class="rounded-circle shadow-sm">
+                                    <div>
+                                        <p class="font-label-md text-label-md fw-bold text-on-surface fst-normal mb-0">Sarah Jenkins</p>
+                                        <p class="text-tertiary fw-bold mb-0" style="font-size: 12px;">VP of Ops, FintechX</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="swiper-slide h-auto">
+                            <div class="p-4 p-md-5 bg-white rounded-4 border border-outline-variant shadow-sm text-on-surface-variant position-relative h-100 transition-transform hover-scale-105 group">
+                                <span class="material-symbols-outlined position-absolute top-0 start-0 ms-4 mt-4 transition-colors group-hover-text-primary" style="font-size: 60px; color: rgba(76, 29, 149, 0.1);">format_quote</span>
+                                <p class="fst-italic position-relative z-1 mb-4 pt-4 lh-lg">"I was skeptical at first, but Stackly's direct protocol access to DeFi yield farming is flawless and completely transparent."</p>
+                                <div class="d-flex align-items-center gap-3 mt-auto">
+                                    <img src="https://ui-avatars.com/api/?name=David+Kim&background=4c1d95&color=fff&rounded=true" alt="David Kim" style="width: 48px; height: 48px;" class="rounded-circle shadow-sm">
+                                    <div>
+                                        <p class="font-label-md text-label-md fw-bold text-on-surface fst-normal mb-0">David Kim</p>
+                                        <p class="text-primary fw-bold mb-0" style="font-size: 12px;">Crypto Analyst</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. App Showcase -->
+        <section class="position-relative overflow-hidden" data-aos="fade-up" style="background-color: #0b061d; padding-top: 120px; padding-bottom: 120px;">
+            <!-- Dark Premium Glow Background -->
+            <div class="position-absolute top-50 start-50 translate-middle rounded-circle" style="width: 800px; height: 800px; background: radial-gradient(circle, rgba(76,29,149,0.15) 0%, transparent 60%); z-index: 0;"></div>
+            
+            <div class="container max-w-container-max position-relative z-1">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-6 d-flex flex-column gap-4" data-aos="fade-right">
+                        <span class="d-inline-block px-3 py-1 rounded-pill font-label-sm fw-bold align-self-start" style="background-color: rgba(223, 183, 140, 0.1); color: var(--tertiary);">Mobile Experience</span>
+                        <h2 class="font-headline-xl text-headline-xl text-white mb-0 fw-bold">Your Bank in <br/> <span class="text-gradient-premium">Your Pocket.</span></h2>
+                        <p class="font-body-lg text-body-lg text-white text-opacity-75 mb-0 lh-lg">Full control anywhere in the world. Tap to pay, freeze cards instantly, and get real-time spending insights with the Stackly mobile app.</p>
+                        
+                        <div class="d-flex align-items-center gap-4 mt-4 p-4 rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px);">
+                            <div class="bg-white p-2 rounded-4 shadow-sm transition-transform hover-scale-105 cursor-pointer">
+                                <div class="d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; background: url('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=DownloadStackly') center/cover;">
+                                </div>
+                            </div>
+                            <div>
+                                <p class="font-label-md fw-bold text-white mb-2">Scan to Download app</p>
+                                <div class="d-flex gap-3 mt-1">
+                                    <span class="material-symbols-outlined text-white text-opacity-50 transition-colors hover-text-white cursor-pointer" style="font-size: 28px;">apple</span>
+                                    <span class="material-symbols-outlined text-white text-opacity-50 transition-colors hover-text-white cursor-pointer" style="font-size: 28px;">android</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 d-flex justify-content-center position-relative mt-5 mt-md-0" data-aos="fade-left">
+                        <!-- Modern Phone Frame -->
+                        <div class="rounded-5 shadow-lg position-relative overflow-hidden" style="width: 280px; height: 580px; background-color: #0f0a29; border: 10px solid #1a153a; box-shadow: 0 20px 50px rgba(0,0,0,0.5), inset 0 0 0 2px rgba(255,255,255,0.1);">
+                            <!-- Dynamic Island / Notch -->
+                            <div class="position-absolute start-50 translate-middle-x rounded-pill" style="width: 100px; height: 28px; top: 10px; background: #000; z-index: 10; box-shadow: inset 0 -1px 2px rgba(255,255,255,0.1);"></div>
+                            
+                            <!-- App Interface -->
+                            <div class="position-relative w-100 h-100 p-3 pt-5 d-flex flex-column" style="background: radial-gradient(circle at top, rgba(76,29,149,0.3) 0%, transparent 60%);">
+                                
+                                <!-- Top Bar -->
+                                <div class="d-flex justify-content-between align-items-center mb-4 mt-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img src="https://ui-avatars.com/api/?name=User&background=dfb78c&color=fff&rounded=true" style="width: 36px; height: 36px;" class="rounded-circle border border-white border-opacity-25">
+                                        <span class="text-white fw-bold" style="font-size: 14px;">Hi, Alex</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-white text-opacity-75">notifications</span>
+                                </div>
+                                
+                                <!-- Total Balance -->
+                                <div class="mb-4">
+                                    <p class="text-white text-opacity-50 mb-1" style="font-size: 12px;">Total Balance</p>
+                                    <h3 class="text-white fw-bold m-0" style="font-size: 28px;">$124,500.00</h3>
+                                </div>
+                                
+                                <!-- Virtual Card -->
+                                <div class="rounded-4 p-3 mb-4 shadow-sm position-relative overflow-hidden group cursor-pointer" style="background: linear-gradient(135deg, var(--primary) 0%, #30106b 100%); height: 160px; border: 1px solid rgba(255,255,255,0.1);">
+                                    <div class="position-absolute top-0 end-0 w-75 h-100 bg-white opacity-10" style="clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);"></div>
+                                    <div class="d-flex justify-content-between align-items-center mb-4 position-relative z-1">
+                                        <span class="fw-bold text-white text-opacity-75" style="font-size: 14px;">STACKLY</span>
+                                        <span class="material-symbols-outlined text-white">contactless</span>
+                                    </div>
+                                    <div class="position-relative z-1 mt-4">
+                                        <p class="text-white text-opacity-75 mb-1" style="font-size: 16px; letter-spacing: 2px;">**** **** **** 4289</p>
+                                        <div class="d-flex justify-content-between text-white">
+                                            <span style="font-size: 10px;">Alex Sterling</span>
+                                            <span style="font-size: 10px;">12/28</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Action Buttons -->
+                                <div class="d-flex justify-content-between mb-4">
+                                    <div class="d-flex flex-column align-items-center gap-2">
+                                        <div class="rounded-circle d-flex align-items-center justify-content-center transition-transform hover-scale-110 cursor-pointer" style="width: 48px; height: 48px; background: rgba(255,255,255,0.05);">
+                                            <span class="material-symbols-outlined text-white" style="font-size: 20px;">send</span>
+                                        </div>
+                                        <span class="text-white text-opacity-75" style="font-size: 10px;">Send</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center gap-2">
+                                        <div class="rounded-circle d-flex align-items-center justify-content-center transition-transform hover-scale-110 cursor-pointer" style="width: 48px; height: 48px; background: rgba(255,255,255,0.05);">
+                                            <span class="material-symbols-outlined text-white" style="font-size: 20px;">download</span>
+                                        </div>
+                                        <span class="text-white text-opacity-75" style="font-size: 10px;">Receive</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center gap-2">
+                                        <div class="rounded-circle d-flex align-items-center justify-content-center transition-transform hover-scale-110 cursor-pointer" style="width: 48px; height: 48px; background: rgba(255,255,255,0.05);">
+                                            <span class="material-symbols-outlined text-white" style="font-size: 20px;">currency_exchange</span>
+                                        </div>
+                                        <span class="text-white text-opacity-75" style="font-size: 10px;">Exchange</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center gap-2">
+                                        <div class="rounded-circle d-flex align-items-center justify-content-center transition-transform hover-scale-110 cursor-pointer" style="width: 48px; height: 48px; background: rgba(255,255,255,0.05);">
+                                            <span class="material-symbols-outlined text-white" style="font-size: 20px;">more_horiz</span>
+                                        </div>
+                                        <span class="text-white text-opacity-75" style="font-size: 10px;">More</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Recent Transactions (Faded) -->
+                                <div class="mt-auto">
+                                    <h4 class="text-white text-opacity-75 mb-3 fw-bold" style="font-size: 14px;">Recent</h4>
+                                    <div class="d-flex align-items-center justify-content-between mb-2">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center shadow-sm" style="width: 32px; height: 32px;">
+                                                <span class="material-symbols-outlined text-dark" style="font-size: 16px;">apple</span>
+                                            </div>
+                                            <span class="text-white" style="font-size: 12px;">Apple Store</span>
+                                        </div>
+                                        <span class="text-white fw-bold" style="font-size: 12px;">-$999.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating UI elements around the phone -->
+                        <div class="position-absolute p-3 rounded-4 shadow-lg d-none d-lg-flex align-items-center gap-3 float-animation" style="left: -20px; top: 120px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); z-index: 20;">
+                            <div class="icon-box rounded-circle bg-success bg-opacity-10 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <span class="material-symbols-outlined text-success">check_circle</span>
+                            </div>
+                            <div>
+                                <p class="fw-bold text-dark mb-0 lh-1" style="font-size: 14px;">Transfer Sent</p>
+                                <p class="text-muted mb-0" style="font-size: 12px;">To John Doe</p>
+                            </div>
+                        </div>
+                        
+                        <div class="position-absolute p-3 rounded-4 shadow-lg d-none d-lg-flex align-items-center gap-3 float-animation" style="right: -40px; bottom: 100px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); animation-delay: 1.5s; z-index: 20;">
+                            <div class="icon-box rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; background: rgba(223, 183, 140, 0.2);">
+                                <span class="material-symbols-outlined text-tertiary">lock_open</span>
+                            </div>
+                            <div>
+                                <p class="fw-bold text-dark mb-0 lh-1" style="font-size: 14px;">Card Unlocked</p>
+                                <p class="text-muted mb-0" style="font-size: 12px;">Ready to use</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Statistics -->
+        <section class="py-5 position-relative" data-aos="fade-up" id="stats-section">
+            <div class="container max-w-container-max text-center position-relative z-1">
+                <div class="row g-4 align-items-center justify-content-center bg-white p-4 p-md-5 rounded-4 shadow-sm border border-outline-variant">
+                    <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="p-2 p-md-3">
+                            <h3 class="display-4 fw-bold text-gradient-premium mb-2 d-inline-flex align-items-center justify-content-center">
+                                $<span class="counter-num" data-target="50">0</span>B+
+                            </h3>
+                            <p class="font-label-md fw-bold text-on-surface-variant text-uppercase mb-0" style="letter-spacing: 2px;">Processed Monthly</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="p-2 p-md-3 border-start border-end border-outline-variant">
+                            <h3 class="display-4 fw-bold text-gradient-premium mb-2 d-inline-flex align-items-center justify-content-center">
+                                <span class="counter-num" data-target="150">0</span>+
+                            </h3>
+                            <p class="font-label-md fw-bold text-on-surface-variant text-uppercase mb-0" style="letter-spacing: 2px;">Countries</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="p-2 p-md-3">
+                            <h3 class="display-4 fw-bold text-gradient-premium mb-2">24/7</h3>
+                            <p class="font-label-md fw-bold text-on-surface-variant text-uppercase mb-0" style="letter-spacing: 2px;">Expert Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Latest News -->
+        <section class="py-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="d-flex justify-content-between align-items-end mb-5">
+                    <h2 class="font-headline-lg text-headline-lg mb-0">Market Intelligence</h2>
+                    <a class="text-primary font-label-md text-decoration-none" href="#">View All Articles</a>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <!-- Article 1 -->
+                    <div class="col-md-4">
+                        <article class="bg-white rounded-4 border border-outline-variant shadow-sm h-100 d-flex flex-column text-decoration-none text-dark transition-transform hover-scale-105 group" style="cursor:pointer; overflow:hidden;">
+                            <div class="position-relative w-100 overflow-hidden" style="height: 200px;">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 transition-transform group-hover-scale" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuALGjpga_udsPVqF1oueh1HfUT5OeCX8tUW0JaEKqTOhm8ZsI5-1R81rsoVbHptpIZH_Ir2EWZFHsQF9Ve3fQMharxnARqYxBvXQaCeVwk9eB1qlrnxJvZ2xczG_i10h0Ts5C7-e9aFVESfQ4grzds5a9ZDrV0lPaxHti7pw-B9LWQN8YL3_9N-G0INsET4hvsYfwVO5p5QGAseqBAgJ3GNs0oCVO8X5BTHvGB6TvC9C_qqqg9p7lrAzr_uQujU4MuXDYC_zUgyobY'); background-size: cover; background-position: center;"></div>
+                            </div>
+                            <div class="p-4 d-flex flex-column flex-grow-1">
+                                <p class="text-primary font-label-sm fw-bold text-uppercase mb-2" style="letter-spacing: 1px;">Ecosystem Update</p>
+                                <h4 class="font-headline-md text-headline-md mb-3 transition-colors group-hover-text-primary fw-bold" style="font-size: 20px;">Introducing Stackly Card Gen 2</h4>
+                                <p class="text-on-surface-variant mb-4" style="font-size: 14px; line-height: 1.6;">Learn about the new security features and enhanced cashback rewards coming to our premium card holders.</p>
+                                <div class="mt-auto d-flex align-items-center gap-2 text-primary fw-bold transition-transform group-hover-text-tertiary">
+                                    <span style="font-size: 14px;">Read More</span>
+                                    <span class="material-symbols-outlined transition-transform group-hover-arrow-move" style="font-size: 18px;">arrow_forward</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Article 2 -->
+                    <div class="col-md-4">
+                        <article class="bg-white rounded-4 border border-outline-variant shadow-sm h-100 d-flex flex-column text-decoration-none text-dark transition-transform hover-scale-105 group" style="cursor:pointer; overflow:hidden;">
+                            <div class="position-relative w-100 overflow-hidden" style="height: 200px;">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 transition-transform group-hover-scale" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAko4ViREdfhXc9_wlVdCqM9hyIzyQychcin7J34oF6J73036JFnqG7zN4VeQIc86qejBN1ryu-7ESEIaq2Rll8p3c_tog61UCww5ura9NCTFUrZQv2tizdMj43tMTnTpJ2SrTeSa1K_1Bf-_zx28Vq-Gy09bgtglp-Aa2-T77jeHf8ATBuKUmfF8OhepiFEaBlpcgDE67bEbfTgp2txN2vIDFzJjw83OY49qZCdWjtJFWutqIh4dwExT7NxkcYP6UtPkNS6xfyQDA'); background-size: cover; background-position: center;"></div>
+                            </div>
+                            <div class="p-4 d-flex flex-column flex-grow-1">
+                                <p class="text-tertiary font-label-sm fw-bold text-uppercase mb-2" style="letter-spacing: 1px;">Market Analysis</p>
+                                <h4 class="font-headline-md text-headline-md mb-3 transition-colors group-hover-text-primary fw-bold" style="font-size: 20px;">The Shift to Digital Liquidity</h4>
+                                <p class="text-on-surface-variant mb-4" style="font-size: 14px; line-height: 1.6;">How stablecoins and CBDCs are reshaping the landscape of global settlement in 2024.</p>
+                                <div class="mt-auto d-flex align-items-center gap-2 text-tertiary fw-bold transition-transform group-hover-text-primary">
+                                    <span style="font-size: 14px;">Read More</span>
+                                    <span class="material-symbols-outlined transition-transform group-hover-arrow-move" style="font-size: 18px;">arrow_forward</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Article 3 -->
+                    <div class="col-md-4">
+                        <article class="bg-white rounded-4 border border-outline-variant shadow-sm h-100 d-flex flex-column text-decoration-none text-dark transition-transform hover-scale-105 group" style="cursor:pointer; overflow:hidden;">
+                            <div class="position-relative w-100 overflow-hidden" style="height: 200px;">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 transition-transform group-hover-scale" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBwfSeMfmb4aZxaqWiEmWmNfeE0fW5Za88Xhn9kLo5VMSPVnhp-y2GouqBZ9cZnizgIFWuNJ3apEoTELwfQFilanA3CiUcxQOrSn9r1B43rs4ESq8WO6idNG_Bk4o98GnD5gfiFejPInDli_-90SyHMAKswsK4ZU-Q-wcfqwNpUyh4IO4yYushFhzOv_R3xj9WYmmXdNlTyW3AYZ6nVnGUirynw_l1Dn2gwcU0SwjdhokSywAY4RPnQk97ggiWcVqkMqXivMjWXrNI'); background-size: cover; background-position: center;"></div>
+                            </div>
+                            <div class="p-4 d-flex flex-column flex-grow-1">
+                                <p class="text-primary font-label-sm fw-bold text-uppercase mb-2" style="letter-spacing: 1px;">Security</p>
+                                <h4 class="font-headline-md text-headline-md mb-3 transition-colors group-hover-text-primary fw-bold" style="font-size: 20px;">Post-Quantum Cryptography</h4>
+                                <p class="text-on-surface-variant mb-4" style="font-size: 14px; line-height: 1.6;">Inside the protocols we use to ensure your data remains secure for the next century.</p>
+                                <div class="mt-auto d-flex align-items-center gap-2 text-primary fw-bold transition-transform group-hover-text-tertiary">
+                                    <span style="font-size: 14px;">Read More</span>
+                                    <span class="material-symbols-outlined transition-transform group-hover-arrow-move" style="font-size: 18px;">arrow_forward</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Final CTA -->
+        <section class="py-5 my-5" data-aos="fade-up">
+            <div class="container max-w-container-max">
+                <div class="rounded-5 p-5 text-center position-relative overflow-hidden shadow-lg border border-outline-variant" style="background-color: #0d091e;">
+                    <!-- Modern Grid Background -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-25" style="background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px); background-size: 30px 30px; z-index: 0;"></div>
+                    
+                    <!-- Glowing Orbs -->
+                    <div class="position-absolute top-0 start-0 translate-middle rounded-circle" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(76,29,149,0.8) 0%, transparent 70%); filter: blur(40px); z-index: 0; animation: float 6s ease-in-out infinite;"></div>
+                    <div class="position-absolute bottom-0 end-0 translate-middle rounded-circle" style="width: 400px; height: 400px; background: radial-gradient(circle, rgba(223, 183, 140, 0.4) 0%, transparent 70%); filter: blur(50px); z-index: 0; animation: float 8s ease-in-out infinite reverse;"></div>
+
+                    <div class="position-relative z-1 d-flex flex-column gap-4 py-md-5 align-items-center">
+                        <span class="d-inline-block px-3 py-1 rounded-pill fw-bold" style="background-color: rgba(223, 183, 140, 0.15); color: var(--tertiary); font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">Ready to Start?</span>
+                        <h2 class="display-3 fw-bold mb-0 text-white" style="letter-spacing: -1px;">Join the <span class="text-gradient-premium">Financial Revolution</span></h2>
+                        <p class="font-body-lg text-white text-opacity-75 mx-auto mb-2 lh-lg" style="max-width: 650px;">Get started in less than 5 minutes. No paperwork, no hidden fees, just pure digital banking built for the modern world.</p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-3">
+                            <button class="btn btn-primary text-white px-5 py-3 rounded-pill fw-bold shadow-lg transition-transform hover-scale-105 border-0 d-flex align-items-center justify-content-center gap-2" style="font-size: 16px; background: linear-gradient(135deg, var(--primary) 0%, #7c3aed 100%);">
+                                Open Free Account
+                                <span class="material-symbols-outlined" style="font-size: 20px;">arrow_forward</span>
+                            </button>
+                            <button class="btn px-5 py-3 rounded-pill fw-bold transition-transform hover-scale-105 text-white d-flex align-items-center justify-content-center gap-2" style="font-size: 16px; border: 2px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                                Contact Sales
+                                <span class="material-symbols-outlined" style="font-size: 20px;">headset_mic</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Stackly Banking | Insights & Innovation</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-surface text-on-surface">
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main class="pt-20">
+        <!-- New Blog Hero Section -->
+        <section class="position-relative d-flex align-items-center justify-content-center overflow-hidden mb-5" style="min-height: 80vh;">
+            <!-- Background Image with Overlay -->
+            <div class="position-absolute inset-0 w-100 h-100 z-0">
+                <div class="position-absolute inset-0 w-100 h-100 bg-dark bg-opacity-75" style="z-index: 1;"></div>
+                <div class="w-100 h-100 transition-transform" style="background-image: url('assets/images/blog_hero_bg_1784691856045.png'); background-size: cover; background-position: center; animation: pulse 15s infinite alternate;"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="container position-relative text-center z-1 px-3" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-inline-flex align-items-center gap-2 px-3 py-1 bg-white bg-opacity-10 text-white rounded-pill font-label-sm text-label-sm mb-4 border border-white border-opacity-25" style="backdrop-filter: blur(8px);">
+                    <span class="material-symbols-outlined fs-6">feed</span>
+                    Insights & Innovation
+                </div>
+                <h1 class="font-headline-xl text-headline-xl text-white mb-4 fw-bold lh-sm" style="text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                    Stackly <br>
+                    <span class="text-primary">Banking Blog</span>
+                </h1>
+                <p class="text-white text-opacity-75 text-body-lg mx-auto mb-5" style="max-width: 750px; font-size: 1.125rem; line-height: 1.7;">
+                    Stay ahead of the curve with the latest digital banking news, expert analysis, and futuristic financial trends curated by our industry leaders.
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <button class="btn indigo-gradient text-white px-5 py-3 rounded-3 font-label-md shadow-lg transition-transform hover-scale-105 border-0">Latest Articles</button>
+                    <button class="btn bg-white bg-opacity-10 text-white border-outline-variant px-5 py-3 rounded-3 font-label-md transition-transform hover-scale-105 d-flex align-items-center justify-content-center gap-2" style="backdrop-filter: blur(8px);">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="container max-w-container-max py-5 mt-4">
+            
+            <!-- Section 1: Featured Post -->
+            <section class="mb-5" data-aos="fade-up">
+                <div class="position-relative w-100 rounded-4 overflow-hidden shadow-sm group cursor-pointer" style="height: 500px;">
+                    <div class="position-absolute inset-0 w-100 h-100 transition-transform hover-scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyIE64sIhMTyns-erykAzCdi7NVeEL6p-0a2SMzlr_0vAfyVUiso5S3xgw5zzlJp8sKaStYCmBCS9OugHhDO8upCDYh3VQpv0zh7Gn14zMNJdONX3gzlEilQxvIodCuwB33oF4eyGoZLCuSVFmq97R1OGwziFcn90QacfsDb0FNKhvLIWLR3Cal5Dwg3N65H2Mwy6rZ_wF_LabsiAfQnwUnXPnFaRr99P_RklVZTUXKsDWbU7NxyRP0V1PZ--w896WcOc7esQ45tw'); background-size: cover; background-position: center;"></div>
+                    <div class="position-absolute inset-0 w-100 h-100" style="background: linear-gradient(to top, rgba(15, 23, 42, 1) 0%, rgba(15, 23, 42, 0.8) 50%, rgba(15, 23, 42, 0.2) 100%); pointer-events: none;"></div>
+                    <div class="position-absolute bottom-0 start-0 p-4 p-md-5 text-white w-100" style="background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);">
+                        <div style="max-width: 800px; text-shadow: 0px 4px 20px rgba(0,0,0,0.9);">
+                            <span class="bg-primary px-3 py-1 rounded-pill font-label-sm text-label-sm text-uppercase tracking-wider mb-3 d-inline-block shadow-lg border border-white border-opacity-25" style="box-shadow: 0 4px 15px rgba(0,0,0,0.5);">Featured Insight</span>
+                            <h1 class="font-headline-xl text-headline-xl mb-3 lh-sm transition-colors hover-text-primary fw-bold text-white">The Future of Decentralized Finance in Retail Banking</h1>
+                            <p class="font-body-lg text-body-lg text-white mb-4 fw-medium" style="color: rgba(255,255,255,0.95) !important;">Discover how Stackly is bridging the gap between traditional asset management and the emerging DeFi ecosystem to provide secure, yield-generating opportunities.</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="rounded-circle bg-surface-container" style="width: 40px; height: 40px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA8jUfF7fmTXQJUHJ5XPlpx01gyFdDsAQ1IZVa2fLVj08y9FBpi_wbgXOHyWptyDyvtoMLjkeVuEInhuvhmVQAK2qcLnTmynQ8qLyz05BLZioBuScJJXE1LmiFhRzxFU1wOAbDP-RzsaBBfoyKp8bSc5sR11GDIQ-f6X9quUEkHVzrWZpeSkuE_aK_XO7ewjN-WF9PsMWZ5vyshEbd28UsteynyCLumbB7Kzb9a-O9GqLY-X6MSXFgeY5O2Tyu6G7t54XsvXjKDbe4'); background-size: cover; background-position: center;"></div>
+                                    <span class="font-label-md fw-bold text-white" style="text-shadow: none;">Dr. Sarah Chen</span>
+                                </div>
+                                <span class="text-white text-opacity-75">•</span>
+                                <span class="font-label-sm text-white text-opacity-90 fw-medium" style="text-shadow: none;">May 12, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Category Filter -->
+            <section class="mb-5 d-flex flex-wrap align-items-center justify-content-between gap-4 position-relative" style="z-index: 10;" data-aos="fade-up">
+                <div class="d-flex align-items-center gap-2 overflow-x-auto pb-2 no-scrollbar w-100 w-md-auto">
+                    <button class="filter-btn btn bg-primary text-white rounded-pill px-4 py-2 font-label-md text-nowrap border-0" data-filter="all">All Topics</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="fintech">Fintech</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="security">Security</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="crypto">Crypto</button>
+                    <button class="filter-btn btn bg-surface-container-low text-on-surface-variant hover-bg-surface-container-high rounded-pill px-4 py-2 font-label-md text-nowrap border-0 transition-colors" data-filter="lifestyle">Lifestyle</button>
+                </div>
+
+            </section>
+
+            <div class="row g-5">
+                <!-- Left Column: Main Post Grid (Section 3) -->
+                <div class="col-lg-8">
+                    <div class="row g-4" id="blog-grid">
+                        <!-- Post 1 -->
+                        <div class="col-md-6 blog-post" data-category="fintech" data-read-time="5" data-popularity="100" data-date="2024-05-10" data-aos="fade-up">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCzwIo1z2Ywz2tUVOcDA3nfVpKcfgVKOGzLudPqSigw4WrWumFy6ImtXgbGHJXpAuspdkbWkCQT6y8yefPMmBSK4uF-njCxGgznj-wLisyWm0k6t11gxtKSX__F8RdgqwHybaACcQEOWo0LAnIWI9os9wujy0Fww_V3S7bAmX3y3Vynsx8k0KHEsmSlc-8yEVAYbIhTePyvvnJM5zwlhguAAJg2GBcUPDa69e3rUkMVT6YuLI6Po1RIPN89x86w5wl2m0C0eqXRecE'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Fintech</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 5 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">Biometric Security: Beyond Fingerprints</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Exploring the next frontier of behavioral biometrics and how Stackly protects your assets through invisible security layers.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                        <!-- Post 2 -->
+                        <div class="col-md-6 blog-post" data-category="crypto" data-read-time="12" data-popularity="200" data-date="2024-05-08" data-aos="fade-up" data-aos-delay="100">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDG7yZtnRzmIc3jsf01evs1VU1CrLsthpcY0OvLB3Ixp780AAm28Q5RSOffxXRLxR53UewALaZSMrFTsllthxuIXdBKgCfgVCRgAvIURBNOulX51_dcNJHR6C6JinQB6vaC2y6pWI-UANaqA9p2oyEKlM0lddNdElJEYZeTc8Mipz3BHmknVcu35DUBg53DhcEU0K9Rn2Wf9UOsOu0wzGYp8Pjz38nfa5OKvEd8MASyUa3XxYS5__VOcbo-Q23Y2eNFLX6ukYsTrWo'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Crypto</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 12 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">Ethereum 2.0 and Sustainable Wealth</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">How proof-of-stake is changing the environmental impact of crypto-assets and what it means for your portfolio.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                        <!-- Post 3 -->
+                        <div class="col-md-6 blog-post" data-category="lifestyle" data-read-time="4" data-popularity="50" data-date="2024-05-12" data-aos="fade-up">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBD8xs-a-3kVIZMZ8kFtIr03PiZx9x8ZfeE6LmELQnR7SWuw37s0dD3vrJUNkE0xu-7oJhiGGwuIqmDMvuW06seYau5Ix5JlWNuzKzp0MvtvvXQ6In7wXnNKonn-81a9sTpZmWZnp6Gekn9nYH81fZYQ9HyWO_oonyToV_JWLtzFoS41k9Kc4TtS0Mg3lkXKWOpcwqp75anaK1hM-QwY0RVvaFdkTpmM9wM2q4s2QJdc75T7INc6NPlMo0oMO-zF-FuNpuXH3Wz5c8'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Lifestyle</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 4 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">Designing a Financial-First Lifestyle</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Mindful spending habits that don't compromise on luxury. Our guide to intentional wealth building.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                        <!-- Post 4 -->
+                        <div class="col-md-6 blog-post" data-category="security" data-read-time="6" data-popularity="300" data-date="2024-05-11" data-aos="fade-up" data-aos-delay="100">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBFOgRmr99hh0gGadl6D17O4xIN8l3m5EHG8CEr-u0r1K6sXmK9lRshQFLkcZoEmv2G4Dc2Puc1vP4B7b1yhA2sBgz3QuMEhIKk975Bh2xFWgfHdv4XuETSKGeOvbZjT9JO5ZWW_AcuxX7PqhEeazaoMRXhtnH6DQt91RpEYc0cH7OPUpKt7T7LddUvYYuK55ak7bk8ur9rhdpf-jG-maG7OUaHitiszh7E_Rtl_9Yen_TCg76NEl0IHGfG5z21znUM-ewdvInNeEo'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Security</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 6 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">The Psychology of Cyber Fraud</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Understanding the latest social engineering tactics used by hackers and how to keep your data bulletproof.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                        <!-- Post 5 -->
+                        <div class="col-md-6 blog-post" data-category="fintech" data-read-time="10" data-popularity="150" data-date="2024-05-09" data-aos="fade-up">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOxbXZTYB8lIEmQKhzQGjo0XA5JzYaA13RhX0HGeeI6d9Q7Y24Nn6m98ra1WzZ57APkyWOn7Zkd5kPGl-9uPAOUKhwt6jDNcT6XyyZdYaFe6A07YlvbRoQFAEZAH1oNMqKTu1a8elm5bnFSc060rl5j9_f3zq0hO2csrxJK7mj795uHGe1i6IY0vn4UCTOd_viGwYMwlIq8u_qMYhQMrtQQRzOD7SttdnydwIeQBWHlI9_Ilr_L7iLdnNJMVCEQNMS-8xjUD1xLgg'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Fintech</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 10 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">API Banking: The Invisible Revolution</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">How open banking is creating a seamless ecosystem for apps and services to talk to your bank account safely.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                        <!-- Post 6 -->
+                        <div class="col-md-6 blog-post" data-category="crypto" data-read-time="7" data-popularity="250" data-date="2024-05-14" data-aos="fade-up" data-aos-delay="100">
+                            <article class="bg-surface-container-lowest rounded-4 p-3 shadow-sm border border-outline-variant bento-card h-100 d-flex flex-column cursor-pointer">
+                                <div class="rounded-3 mb-3 w-100" style="height: 200px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB3Umpd76wb6Au1Six8fsYS_onFM8t0eS0z4m2HmHNZMoJyngYkqBZvN6_rovPwMwekQxumkK7FP-JEWSb4L0gMIvHphmMjMoauJT0kVhHWm8RzPIe9cQLAYx1yGN6UWrC8zK5JUDm6tUxEYzayQODS7rDPTeMEKUcogN-CEqeiBLFWsf5H4EcAubggYp8FvxJKv3KnM2JyyeD82eV0W5e-nD5EhiZDDUNQpdrnnC4WYzeejhYtfGIC3bVvEhsEd1ggQ5XqpsdExMI'); background-size: cover; background-position: center;"></div>
+                                <div class="d-flex gap-2 mb-2">
+                                    <span class="text-primary text-uppercase fw-bold tracking-widest" style="font-size: 10px;">Crypto</span>
+                                    <span class="text-on-surface-variant text-uppercase tracking-widest" style="font-size: 10px;">• 7 min read</span>
+                                </div>
+                                <h3 class="font-headline-md fs-5 mb-2 lh-sm">Staking as the New Savings Account</h3>
+                                <p class="font-body-sm text-on-surface-variant mb-4 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">A beginner's guide to earning passive income through blockchain staking mechanisms safely with Stackly.</p>
+                                <a class="text-primary font-label-md d-flex align-items-center gap-1 text-decoration-none fw-bold read-article-link" href="#">Read Article <span class="material-symbols-outlined icon-arrow" style="font-size: 18px; transition: transform 0.3s ease;">arrow_forward</span></a>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Section 4: Newsletter Signup -->
+                    <section class="mt-5 rounded-4 p-4 p-md-5 text-white position-relative overflow-hidden shadow-lg border border-white border-opacity-10 group-card" data-aos="fade-up" style="background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);">
+                        <!-- Abstract Background Shapes -->
+                        <div class="position-absolute top-0 end-0 rounded-circle mix-blend-screen opacity-50" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(56, 189, 248, 0.4) 0%, transparent 70%); filter: blur(40px); transform: translate(30%, -30%);"></div>
+                        <div class="position-absolute bottom-0 start-0 rounded-circle mix-blend-screen opacity-50" style="width: 250px; height: 250px; background: radial-gradient(circle, rgba(79, 70, 229, 0.4) 0%, transparent 70%); filter: blur(40px); transform: translate(-30%, 30%);"></div>
+                        
+                       
+
+                        <div class="position-relative z-1 d-flex flex-column align-items-center text-center">
+                            <span class="bg-white bg-opacity-10 px-3 py-1 rounded-pill font-label-sm text-uppercase tracking-wider border border-white border-opacity-25 mb-3 d-inline-flex align-items-center gap-2 shadow-sm" style="backdrop-filter: blur(10px);">
+                                <span class="material-symbols-outlined fs-6 text-info">mark_email_unread</span> Stay Updated
+                            </span>
+                            <h2 class="font-headline-lg fw-bold mb-3 lh-sm" style="background: linear-gradient(to right, #ffffff, #a5b4fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">The Fintech Pulse</h2>
+                            <p class="font-body-md text-white text-opacity-75 mb-5" style="max-width: 480px; font-size: 15px;">Get exclusive weekly insights on market trends, security alerts, and financial innovation delivered directly to your inbox.</p>
+                            
+                            <form class="w-100" style="max-width: 500px;">
+                                <div class="bg-white bg-opacity-10 p-1 rounded-pill d-flex align-items-center border border-white border-opacity-25 focus-ring-wrapper transition-all shadow-lg" style="backdrop-filter: blur(12px);">
+                                    <span class="material-symbols-outlined text-white text-opacity-50 ms-3 fs-5">mail</span>
+                                    <input class="form-control bg-transparent border-0 text-white shadow-none px-3 font-body-sm" placeholder="Enter your email address..." type="email" style="color: white !important;" aria-label="Email address"/>
+                                    <button class="btn rounded-pill fw-bold text-white transition-transform hover-scale-105 border-0 px-4 py-2 d-flex align-items-center gap-2" style="background: linear-gradient(135deg, #38bdf8, #4f46e5); height: 44px;" type="submit">
+                                        Subscribe <span class="material-symbols-outlined fs-6">send</span>
+                                    </button>
+                                </div>
+                                <p class="mt-3 text-white text-opacity-50 font-label-sm mb-0">
+                                    <span class="material-symbols-outlined fs-6 me-1 align-middle" style="font-size: 14px !important;">lock</span>
+                                    We care about your data in our <a href="#" class="text-white text-opacity-75 text-decoration-underline hover-text-white transition-colors">Privacy Policy</a>
+                                </p>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column: Sidebar -->
+                <aside class="col-lg-4 d-flex flex-column gap-5">
+                    <!-- Section 5: Trending Topics -->
+                    <div class="bg-surface-container-low rounded-4 p-4 border border-outline-variant shadow-sm" data-aos="fade-left">
+                        <h2 class="font-label-md text-primary text-uppercase tracking-widest mb-4 fw-bold">Trending Now</h2>
+                        <ul class="list-unstyled d-flex flex-column gap-4 mb-0">
+                            <li class="group cursor-pointer">
+                                <div class="d-flex gap-3">
+                                    <span class="font-headline-md text-outline opacity-50 fs-4 group-hover:text-primary transition-colors">01</span>
+                                    <div>
+                                        <h4 class="font-label-md lh-sm mb-1 group-hover:text-primary transition-colors fw-bold">5 Myths about Digital Currencies</h4>
+                                        <span class="font-label-sm text-on-surface-variant">15.4k Reads</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="group cursor-pointer">
+                                <div class="d-flex gap-3">
+                                    <span class="font-headline-md text-outline opacity-50 fs-4 group-hover:text-primary transition-colors">02</span>
+                                    <div>
+                                        <h4 class="font-label-md lh-sm mb-1 group-hover:text-primary transition-colors fw-bold">How AI Predicts Market Volatility</h4>
+                                        <span class="font-label-sm text-on-surface-variant">12.1k Reads</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="group cursor-pointer">
+                                <div class="d-flex gap-3">
+                                    <span class="font-headline-md text-outline opacity-50 fs-4 group-hover:text-primary transition-colors">03</span>
+                                    <div>
+                                        <h4 class="font-label-md lh-sm mb-1 group-hover:text-primary transition-colors fw-bold">Protecting Your Digital Identity</h4>
+                                        <span class="font-label-sm text-on-surface-variant">9.8k Reads</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Section 6: Expert Insights -->
+                    <div class="bg-surface-container-highest rounded-4 p-4 border border-outline-variant shadow-sm bg-opacity-25" data-aos="fade-left" data-aos-delay="100">
+                        <h2 class="font-label-md text-primary text-uppercase tracking-widest mb-4 fw-bold">Expert Spotlight</h2>
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="rounded-circle shadow-sm" style="width: 48px; height: 48px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAG57uASxXdiKOOWu-XdxH2YLkuFtT9y7dgWB4qoYbyPjlSwaSTyJ9-ttDqYCgozAzjtQbp9jJsu-_Twhzmy7TNv8BL8TJkhebC2n6V89BrYh_s0HyiPe7qjwAqt-myp95WdmFKsV8ji6qcbxyV3ftrJc-mWjXfQH99aIlSeg3O7JE14Gh7GewTMeWp7egNL7G16YLcbD_z6r_iU34E_G23vYO6hlrIn8CFHMyQleiaIbQwoybL4y0ZKJ0FEz0ISB31SPtVJl539dY'); background-size: cover; background-position: center;"></div>
+                            <div>
+                                <p class="font-label-md fw-bold mb-0">Prof. James Sterling</p>
+                                <p class="text-on-surface-variant mb-0" style="font-size: 12px;">Chief Strategy Officer</p>
+                            </div>
+                        </div>
+                        <blockquote class="font-body-sm fst-italic text-on-surface-variant border-start border-primary border-2 ps-3 py-1 mb-4">
+                            "The next decade of banking won't be about locations, but about the seamless integration of financial intelligence into daily life."
+                        </blockquote>
+                        <a class="font-bold text-primary text-decoration-none hover:underline" style="font-size: 12px;" href="#">View Professor's Insights</a>
+                    </div>
+                    
+                    <!-- Section 7: Podcast Integration -->
+                    <div class="bg-dark rounded-4 p-4 text-white overflow-hidden position-relative group shadow-lg" data-aos="fade-left" data-aos-delay="200">
+                        <div class="position-absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(circle at top right, var(--primary), transparent);"></div>
+                        <div class="position-relative z-1">
+                            <div class="d-flex justify-content-between align-items-start mb-4">
+                                <div>
+                                    <h3 class="font-headline-md fs-5 mb-1">Stackly Talks</h3>
+                                    <p class="text-white text-opacity-50 mb-0" style="font-size: 12px;">New Episode: EP 42</p>
+                                </div>
+                                <span class="material-symbols-outlined text-info">podcasts</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="rounded-3 shadow-sm" style="width: 64px; height: 64px; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDjM_o-fnY13g8xMg6oo-KJOEaOhvFAH9dbH2XEYztqNGgYWMpKa1lG_Um2VlukIG_dcmv39IJARpFYzbjR8kROAgvYaswUUFov8ilZNtSl1O8acDKRP5ZWsACe0ul7gj52yQwAlt73pmhVmQ8HkWOuFhIy2_5Q3jbDlb22fDDvUkVvNeslAGnJDKmU5JZXyqibJ9udBTL4Yxkcyx9KqzgsFVbaK0U6z4MH4nmA7Oe3K8cwfEeAvMRjeR_9UDihY6rTNzwxbIulzUQ'); background-size: cover; background-position: center;"></div>
+                                <div class="flex-grow-1">
+                                    <p class="font-label-md fw-bold lh-sm mb-1" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">Decentralization & The Future of Trust</p>
+                                    <p class="text-white text-opacity-50 mb-0" style="font-size: 10px;">Featuring Linda Wu</p>
+                                </div>
+                            </div>
+                            <div class="bg-white bg-opacity-25 rounded-pill mb-3" style="height: 4px;">
+                                <div class="bg-primary h-100 rounded-pill" style="width: 33%;"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex gap-3 text-white">
+                                    <span class="material-symbols-outlined cursor-pointer hover-text-primary transition-colors">skip_previous</span>
+                                    <span class="material-symbols-outlined cursor-pointer text-primary" style="transform: scale(1.25);">play_circle</span>
+                                    <span class="material-symbols-outlined cursor-pointer hover-text-primary transition-colors">skip_next</span>
+                                </div>
+                                <span class="text-white text-opacity-50" style="font-size: 10px;">12:45 / 45:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Section 8: Archive/Search -->
+                    <div class="bg-surface-container-low rounded-4 p-4 border border-outline-variant shadow-sm" data-aos="fade-left" data-aos-delay="300">
+                        <h2 class="font-label-md text-on-surface text-uppercase tracking-widest mb-4 fw-bold">Tag Cloud</h2>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#CyberSecurity</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#InvestmentTips</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#Web3</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#FintechNews</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#WealthManagement</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#RetailBanking</a>
+                            <a class="px-2 py-1 bg-surface-container text-on-surface-variant text-decoration-none rounded-2 hover-bg-primary hover-text-on-primary transition-colors" style="font-size: 11px;" href="#">#Savings</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <!-- Blog Interactive Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const blogGrid = document.getElementById('blog-grid');
+            
+            // Store posts in memory
+            let posts = Array.from(document.querySelectorAll('.blog-post'));
+
+            let currentFilter = 'all';
+
+            function updatePosts() {
+                // Filter
+                let filteredPosts = posts.filter(post => {
+                    return currentFilter === 'all' || post.dataset.category === currentFilter;
+                });
+
+                // Sort - Default latest first
+                filteredPosts.sort((a, b) => {
+                    return new Date(b.dataset.date) - new Date(a.dataset.date);
+                });
+
+                // Clear & Render
+                blogGrid.innerHTML = '';
+                
+                if (filteredPosts.length === 0) {
+                    blogGrid.innerHTML = '<div class="col-12 text-center py-5"><p class="text-on-surface-variant fs-5 fw-bold">No articles found in this category.</p></div>';
+                } else {
+                    filteredPosts.forEach((post, index) => {
+                        // Reset AOS classes so animation plays again
+                        post.classList.remove('aos-animate');
+                        // Stagger delay based on new sorted index
+                        post.setAttribute('data-aos-delay', (index % 2 === 0 ? '0' : '100'));
+                        blogGrid.appendChild(post);
+                        
+                        // Small timeout to allow DOM to trigger animation
+                        setTimeout(() => {
+                            post.classList.add('aos-animate');
+                        }, 50);
+                    });
+                }
+            }
+
+            // Filter button clicks
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    // Update active button styling
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-primary', 'text-white');
+                        b.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+                    });
+                    const current = e.currentTarget;
+                    current.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+                    current.classList.add('bg-primary', 'text-white');
+
+                    // Set filter and re-render
+                    currentFilter = current.dataset.filter;
+                    updatePosts();
+                });
+            });
+
+            // Sort functionality removed
+        });
+    </script>
+    
+    <!-- Inline styles for Hover Animations and Responsiveness -->
+    <style>
+        .read-article-link:hover .icon-arrow {
+            transform: translateX(6px) !important;
+        }
+        @media (max-width: 768px) {
+            .w-md-auto { width: 100% !important; }
+            .justify-content-end { justify-content: flex-start !important; }
+        }
+    </style>
+</body>
+</html>
+
